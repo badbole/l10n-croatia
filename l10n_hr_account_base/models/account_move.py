@@ -91,31 +91,31 @@ class AccountMove(models.Model):
 
         def add_minus(s):
             return "- " + s
-
-        if (
-            self.move_type == "out_refund"
-            and self.company_id.account_fiscal_country_id.code == "HR"
-        ):
-            totals = self.tax_totals
-            totals["formatted_amount_total"] = add_minus(
-                totals["formatted_amount_total"]
-            )
-            totals["formatted_amount_untaxed"] = add_minus(
-                totals["formatted_amount_untaxed"]
-            )
-            for st in totals["subtotals"]:
-                st["formatted_amount"] = add_minus(st["formatted_amount"])
-            for sg in totals["groups_by_subtotal"].keys():
-                cgt = totals["groups_by_subtotal"][sg]
-                for group in cgt:
-                    group["formatted_tax_group_amount"] = add_minus(
-                        group["formatted_tax_group_amount"]
-                    )
-                    group["formatted_tax_group_base_amount"] = add_minus(
-                        group["formatted_tax_group_base_amount"]
-                    )
-            self.tax_totals = totals
-        # return res
+        for move in self:
+            if (
+                move.move_type == "out_refund"
+                and self.company_id.account_fiscal_country_id.code == "HR"
+            ):
+                totals = move.tax_totals
+                totals["formatted_amount_total"] = add_minus(
+                    totals["formatted_amount_total"]
+                )
+                totals["formatted_amount_untaxed"] = add_minus(
+                    totals["formatted_amount_untaxed"]
+                )
+                for st in totals["subtotals"]:
+                    st["formatted_amount"] = add_minus(st["formatted_amount"])
+                for sg in totals["groups_by_subtotal"].keys():
+                    cgt = totals["groups_by_subtotal"][sg]
+                    for group in cgt:
+                        group["formatted_tax_group_amount"] = add_minus(
+                            group["formatted_tax_group_amount"]
+                        )
+                        group["formatted_tax_group_base_amount"] = add_minus(
+                            group["formatted_tax_group_base_amount"]
+                        )
+                move.tax_totals = totals
+            # return res
 
     @api.depends(
         "journal_id",
