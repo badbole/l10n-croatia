@@ -23,6 +23,14 @@
                 <strong>Date delivery:</strong>
                 <p class="m-0" t-field="o.l10n_hr_date_delivery" />
             </div>
+            <div
+                class="col-auto col-3 mw-100 mb-2"
+                t-if="o.user_id"
+                name="responsible_user"
+            >
+                <strong>Issued by:</strong>
+                <p class="m-0" t-field="o.user_id" />
+            </div>
         </xpath>
         <!-- add croatia fiskal required data after total line -->
         <xpath expr="//div[@id='total']/.." position="after">
