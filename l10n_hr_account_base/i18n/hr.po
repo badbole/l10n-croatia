@@ -17,6 +17,11 @@ msgstr ""
 
 #. module: l10n_hr_account_base
 #: model_terms:ir.ui.view,arch_db:l10n_hr_account_base.l10n_hr_report_invoice_document
+msgid "<strong>Issued by:</strong>"
+msgstr "<strong>Račun izdao:</strong>"
+
+#. module: l10n_hr_account_base
+#: model_terms:ir.ui.view,arch_db:l10n_hr_account_base.l10n_hr_report_invoice_document
 msgid "<strong>Confirm date and time:</strong>"
 msgstr "<strong>Datum i vrijeme izdavanja:</strong>"
 
@@ -761,7 +766,7 @@ msgstr "Odgovorna osoba"
 #: model:ir.model.fields,field_description:l10n_hr_account_base.field_l10n_hr_fiskal_prostor__message_has_sms_error
 #: model:ir.model.fields,field_description:l10n_hr_account_base.field_l10n_hr_fiskal_uredjaj__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "SMS Greška pri isporuci"
 
 #. module: l10n_hr_account_base
 #: model:ir.model.fields,field_description:l10n_hr_account_base.field_l10n_hr_fiskal_prostor__sequence_id
