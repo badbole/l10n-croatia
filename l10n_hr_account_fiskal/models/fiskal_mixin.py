@@ -155,6 +155,7 @@ class FiscalFiscalMixin(models.AbstractModel):
                 naziv = tax.name
                 stopa = tax.amount  # if amount type == percent??
                 osnovica = line["price_subtotal"]
+                iznos = 0.0
                 if stopa != 0.0:
                     iznos = osnovica * 100 / stopa
 
