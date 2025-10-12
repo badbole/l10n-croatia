@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-Info 12.9.2022: https://tockanai.hr/banke
+Info 3.7.2025: https://tockanai.hr/banke
 -->
 <odoo>
+ <data noupdate="0">
     <!-- Croatian banks -->
     <record id="res_bank_hr_2500009" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2500009</field>-->
-        <field name="bic">HAAB HR 22</field>
+        <field name="code">2500009</field>
+        <field name="bic">HAABHR22</field>
         <field name="name">ADDIKO BANK d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
@@ -15,8 +16,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_4133006" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">4133006</field>-->
-        <field name="bic">SKOV HR 22</field>
+        <field name="code">4133006</field>
+        <field name="bic">SKOVHR22</field>
         <field name="name">BANKA KOVANICA d.d. Varaždin</field>
         <field name="zip">42000</field>
         <field name="city">Varaždin</field>
@@ -24,17 +25,17 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_4109006" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">4109006</field>-->
-        <field name="bic">DALM HR 22</field>
+        <field name="code">4109006</field>
+        <field name="bic">DALMHR22</field>
         <field name="name">BANKA SPLITSKO-DALMATINSKA d.d. Split</field>
         <field name="zip">21000</field>
         <field name="city">Split</field>
-        <field name="street">114. brigade 9</field>
+        <field name="street">Mosećka 99</field>
     </record>
     <record id="res_bank_hr_2488001" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2488001</field>-->
-        <field name="bic">BFKK HR 22</field>
+        <field name="code">2488001</field>
+        <field name="bic">BFKKHR22</field>
         <field name="name">BKS BANK AG, Glavna podružnica Rijeka</field>
         <field name="zip">51000</field>
         <field name="city">Rijeka</field>
@@ -42,17 +43,17 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2485003" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2485003</field>-->
-        <field name="bic">CROA HR 2X</field>
+        <field name="code">2485003</field>
+        <field name="bic">CROAHR2X</field>
         <field name="name">CROATIA BANKA d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
-        <field name="street">Kvaternikov trg 9</field>
+        <field name="street">Roberta Frangeša Mihanovića 9</field>
     </record>
     <record id="res_bank_hr_2402006" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2402006</field>-->
-        <field name="bic">ESBC HR 22</field>
+        <field name="code">2402006</field>
+        <field name="bic">ESBCHR22</field>
         <field name="name">ERSTE &amp; STEIERMÄRKISCHE BANK d.d. Rijeka</field>
         <field name="zip">51000</field>
         <field name="city">Rijeka</field>
@@ -60,8 +61,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_1001005" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">1001005</field>-->
-        <field name="bic">NBHR HR 2D</field>
+        <field name="code">1001005</field>
+        <field name="bic">NBHRHR2D</field>
         <field name="name">HRVATSKA NARODNA BANKA</field>
         <field name="zip">10002</field>
         <field name="city">Zagreb</field>
@@ -69,8 +70,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2390001" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2390001</field>-->
-        <field name="bic">HPBZ HR 2X</field>
+        <field name="code">2390001</field>
+        <field name="bic">HPBZHR2X</field>
         <field name="name">HRVATSKA POŠTANSKA BANKA d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
@@ -78,8 +79,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2492008" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2492008</field>-->
-        <field name="bic">IMXX HR 22</field>
+        <field name="code">2492008</field>
+        <field name="bic">IMXXHR22</field>
         <field name="name">IMEX BANKA d.d. Split</field>
         <field name="zip">21000</field>
         <field name="city">Split</field>
@@ -105,8 +106,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2489004" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2489004</field>-->
-        <field name="bic">VBVZ HR 22</field>
+        <field name="code">2489004</field>
+        <field name="bic">VBVZHR22</field>
         <field name="name">J&amp;T BANKA d.d. Varaždin</field>
         <field name="zip">42000</field>
         <field name="city">Varaždin</field>
@@ -114,8 +115,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2400008" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2400008</field>-->
-        <field name="bic">KALC HR 2X</field>
+        <field name="code">2400008</field>
+        <field name="bic">KALCHR2X</field>
         <field name="name">KARLOVAČKA BANKA d.d. Karlovac</field>
         <field name="zip">47000</field>
         <field name="city">Karlovac</field>
@@ -123,8 +124,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_4124003" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">4124003</field>-->
-        <field name="bic">KENB HR 22</field>
+        <field name="code">4124003</field>
+        <field name="bic">KENBHR22</field>
         <field name="name">KENTBANK d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
@@ -133,8 +134,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     <!-- Kreditna banka Zagreb d.d. promijenila je 28. prosinca 2018. ime u Agram banka d.d.-->
     <record id="res_bank_hr_2481000" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2481000</field>-->
-        <field name="bic">KREZ HR 2X</field>
+        <field name="code">2481000</field>
+        <field name="bic">KREZHR2X</field>
         <field name="name">AGRAM BANKA d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
@@ -142,8 +143,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2407000" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2407000</field>-->
-        <field name="bic">OTPV HR 2X</field>
+        <field name="code">2407000</field>
+        <field name="bic">OTPVHR2X</field>
         <field name="name">OTP BANKA HRVATSKA d.d. Zadar</field>
         <field name="zip">23000</field>
         <field name="city">Zadar</field>
@@ -151,8 +152,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2408002" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2408002</field>-->
-        <field name="bic">PAZG HR 2X</field>
+        <field name="code">2408002</field>
+        <field name="bic">PAZGHR2X</field>
         <field name="name">PARTNER BANKA d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
@@ -160,8 +161,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2386002" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2386002</field>-->
-        <field name="bic">PDKC HR 2X</field>
+        <field name="code">2386002</field>
+        <field name="bic">PDKCHR2X</field>
         <field name="name">PODRAVSKA BANKA d.d. Koprivnica</field>
         <field name="zip">48300</field>
         <field name="city">Koprivnica</field>
@@ -169,8 +170,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_4132003" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">4132003</field>-->
-        <field name="bic">SPRM HR 22</field>
+        <field name="code">4132003</field>
+        <field name="bic">SPRMHR22</field>
         <field name="name">PRIMORSKA BANKA d.d. Rijeka u likvidaciji</field>
         <field name="zip">51000</field>
         <field name="city">Rijeka</field>
@@ -179,26 +180,26 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2340009" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2340009</field>-->
-        <field name="bic">PBZG HR 2X</field>
+        <field name="code">2340009</field>
+        <field name="bic">PBZGHR2X</field>
         <field name="name">PRIVREDNA BANKA ZAGREB d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
-        <field name="street">Račkoga 6 / p.p. 1032</field>
+        <field name="street">Radnička cesta 50</field>
     </record>
     <record id="res_bank_hr_2484008" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2484008</field>-->
-        <field name="bic">RZBH HR 2X</field>
+        <field name="code">2484008</field>
+        <field name="bic">RZBHHR2X</field>
         <field name="name">RAIFFEISENBANK AUSTRIA d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
-        <field name="street">Petrinjska 59</field>
+        <field name="street">Magazinska cesta 69</field>
     </record>
     <record id="res_bank_hr_2403009" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2403009</field>-->
-        <field name="bic">SMBR HR 22</field>
+        <field name="code">2403009</field>
+        <field name="bic">SMBRHR22</field>
         <field name="name">SAMOBORSKA BANKA d.d. Samobor</field>
         <field name="zip">10430</field>
         <field name="city">Samobor</field>
@@ -206,8 +207,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2503007" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2503007</field>-->
-        <field name="bic">VBCR HR 22</field>
+        <field name="code">2503007</field>
+        <field name="bic">VBCRHR22</field>
         <field name="name">Nova hrvatska banka d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
@@ -215,8 +216,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2412009" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2412009</field>-->
-        <field name="bic">SBSL HR 2X</field>
+        <field name="code">2412009</field>
+        <field name="bic">SBSLHR2X</field>
         <field name="name">SLATINSKA BANKA d.d. Slatina</field>
         <field name="zip">33520</field>
         <field name="city">Slatina</field>
@@ -224,18 +225,18 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2330003" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2330003</field>-->
-        <field name="bic">SOGE HR 22</field>
+        <field name="code">2330003</field>
+        <field name="bic">SOGEHR22</field>
         <field name="name">SPLITSKA BANKA d.d. Split (OTP Grupa)</field>
         <field name="zip">21000</field>
         <field name="city">Split</field>
-        <field name="street">Ruđera Boškovića 16</field>
+        <field name="street">Ulica Domovinskog rata 61</field>
         <!-- Splitska banka d.d. pripojena je 3. prosinca 2018. OTP banci Hrvatska d.d. -->
     </record>
     <record id="res_bank_hr_2483005" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2483005</field>-->
-        <field name="bic">STED HR 22</field>
+        <field name="code">2483005</field>
+        <field name="bic">STEDHR22</field>
         <field name="name">ŠTEDBANKA d.d. Zagreb u likvidaciji</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
@@ -245,8 +246,8 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_6717002" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">6717002</field>-->
-        <field name="bic">ASBZ HR 22</field>
+        <field name="code">6717002</field>
+        <field name="bic">ASBZHR22</field>
         <field name="name">TESLA ŠTEDNA BANKA d.d. Zagreb u stečaju</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
@@ -255,21 +256,23 @@ Info 12.9.2022: https://tockanai.hr/banke
     </record>
     <record id="res_bank_hr_2381009" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2381009</field>-->
-        <field name="bic">CCBZ HR 2X</field>
+        <field name="code">2381009</field>
+        <field name="bic">CCBZHR2X</field>
         <field name="name">VENETO BANKA d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
-        <field name="street">Draškovićeva 58</field>
+        <field name="street">Draškovićeva 58a</field>
         <!-- Veneto banka d.d. pripojena je 12. listopada 2018. Privrednoj banci Zagreb d.d. -->
     </record>
     <record id="res_bank_hr_2360000" model="res.bank">
         <field name="country" ref="base.hr" />
-        <!--<field name="prefix">2360000</field>-->
-        <field name="bic">ZABA HR 2X</field>
+        <field name="code">2360000</field>
+        <field name="bic">ZABAHR2X</field>
         <field name="name">ZAGREBAČKA BANKA d.d. Zagreb</field>
         <field name="zip">10000</field>
         <field name="city">Zagreb</field>
-        <field name="street">Paromlinska 2</field>
+        <field name="street">Trg bana Josipa Jelačića 10</field>
     </record>
+
+ </data>
 </odoo>
