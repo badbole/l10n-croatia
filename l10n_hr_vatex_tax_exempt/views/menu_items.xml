@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem action="l10n_hr_vatex_tax_exempt_action"
+              name="VATEX Tax Exempts"
+              id="l10n_hr_menu_vatex_tax_exempt"
+              parent="l10n_hr_codebook.l10n_hr_fiscal_codebooks"
+              sequence="40"/>
+
+</odoo>
