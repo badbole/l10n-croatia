@@ -13,6 +13,7 @@
     "licence": "AGPL-3",
 
     "depends": [
+        "l10n_hr_account_base",
         "l10n_hr_codebook",
     ],
     "external_dependencies": {
@@ -27,6 +28,7 @@
         # Views
         "views/l10n_hr_document_type_views.xml",
         "views/account_journal_views.xml",
+        "views/account_move_views.xml",
         "views/menu_items.xml",
     ],
     "qweb": [],

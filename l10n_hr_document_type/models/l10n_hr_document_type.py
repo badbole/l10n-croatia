@@ -4,7 +4,8 @@ from odoo import models, fields, api
 class L10nHrDocumentType(models.Model):
     _name = "l10n.hr.document.type"
     _description = "Defines UNTDID1001 document type."
-    _inherit = ['mail.thread']
+    _rec_name = 'display_name'
+    #_inherit = ['mail.thread']
 
     code = fields.Char(string="Code", required=True)
     name = fields.Char(string="Name", required=True)

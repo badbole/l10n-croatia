@@ -40,7 +40,7 @@
                         <field name="description"/>
                     </group>
                 </sheet>
-                <chatter/>
+<!--                <chatter/>-->
             </form>
         </field>
     </record>
