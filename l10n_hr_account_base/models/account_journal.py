@@ -6,10 +6,7 @@ class AccountJournal(models.Model):
 
     # original fields modification
     code = fields.Char(size=16)  # DB: default size 5 mi se cini premalecki...
-    # invoice_reference_model = fields.Selection(
-    #     selection_add=[("hr", "Croatia - HR00(Partner) HR01(Invoice)")],
-    #     ondelete={"hr": lambda recs: recs.write({"invoice_reference_model": "odoo"})},
-    # )
+
     # new fields needed for localization
     l10n_hr_prostor_id = fields.Many2one(
         comodel_name="l10n.hr.fiskal.prostor",

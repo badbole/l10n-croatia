@@ -173,9 +173,9 @@ class AccountMove(models.Model):
             raise ValidationError(msg)
         # set date fields
         if not self.l10n_hr_date_document:
-            self.l10n_hr_date_document = fields.Date.today()
+            self.l10n_hr_date_document = self.invoice_date or fields.Date.today()
         if not self.l10n_hr_date_delivery:
-            self.l10n_hr_date_delivery = fields.Date.today()
+            self.l10n_hr_date_delivery = self.invoice_date or fields.Date.today()
         if not self.date:
             self.date = fields.Date.today()
         if not self.l10n_hr_vrijeme_izdavanja:  # depend na l10n_hr_base?
@@ -204,3 +204,19 @@ class AccountMove(models.Model):
             if move.move_type in ("out_invoice", "out_refund"):
                 move._l10n_hr_post_out_invoice()
         return posted
+
+    @api.onchange('partner_id')
+    def _onchange_partner_id(self):
+        res = super(AccountMove, self)._onchange_partner_id()
+        if self.partner_id and self.is_outbound(include_receipts=True):
+            self.journal_id = self.partner_id.purchase_journal_id
+        elif self.partner_id and self.is_inbound(include_receipts=True):
+            self.journal_id = self.partner_id.sale_journal_id
+        return res
+
+    @api.onchange('journal_id')
+    def _onchange_journal_id(self):
+        res = super()._onchange_journal_id()
+        if self.journal_id.l10n_hr_default_nacin_placanja:
+            self.l10n_hr_nacin_placanja = self.journal_id.l10n_hr_default_nacin_placanja
+        return res

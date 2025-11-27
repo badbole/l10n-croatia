@@ -4,11 +4,10 @@
         <field name="name">view_l10n_hr_move_form</field>
         <field name="model">account.move</field>
         <field name="type">form</field>
-        <field name="inherit_id" ref="account.view_move_form" />
+        <field name="inherit_id" ref="account.view_move_form"/>
         <field name="arch" type="xml">
-
             <widget name="web_ribbon" position="before">
-                <!-- friendly warning to visaulise if journal is not ready -->
+                <!-- friendly warning to visualise if a journal is not ready -->
                 <widget
                     name="web_ribbon"
                     title="PoS not ready!"
@@ -34,9 +33,23 @@
                     />
                 </span>
             </field>
+            <xpath expr="//group[@id='header_right_group']/field[@name='date']" position="attributes">
+                <attribute name="attrs">
+                    {
+                    'invisible': [],
+                    'readonly': [('state', '!=', 'draft')],
+                    }
+                </attribute>
+            </xpath>
             <field name="payment_reference" position="after">
-                <field name="l10n_hr_date_delivery" />
+                <field name="l10n_hr_date_delivery"/>
             </field>
+            <xpath expr="//group[@id='header_right_group']//field[@name='partner_bank_id']" position="attributes">
+                <attribute name="attrs">{'required': [('move_type', '=', 'out_invoice')]}</attribute>
+            </xpath>
+            <xpath expr="//page[@id='other_tab']//field[@name='partner_bank_id']" position="attributes">
+                <attribute name="attrs">{'required': [('move_type', '=', 'out_invoice')]}</attribute>
+            </xpath>
             <notebook position="inside">
                 <page
                     string="Croatia Fiskal data"
@@ -105,9 +118,9 @@
             </t>
             <t t-set="btn_text">Add Business premisse</t>
             <t t-set="done_text">Premisse added!</t>
-            <t t-set="method" t-value="'setting_init_bank_account_action'" />
-            <t t-set="model" t-value="'l10n.hr.fiskal.prostor'" />
-            <t t-set="state" t-value="state.get('account_setup_premisse_state')" />
+            <t t-set="method" t-value="'setting_init_bank_account_action'"/>
+            <t t-set="model" t-value="'l10n.hr.fiskal.prostor'"/>
+            <t t-set="state" t-value="state.get('account_setup_premisse_state')"/>
         </t>
     </template>
     <!-- TODO: add onboarding step! -->
