@@ -1,0 +1,16 @@
+﻿Datum verzije: 18.06.2025.
+verzija: 1.8
+
+Promjene:
+	
+	- izbačena metoda i sve pripadne elemente za prateće dokumente (PrateciDokumentiZahtjev, PrateciDokumentiOdgovor)
+	- izbačena metoda i sve pripadne elemente za račune koji se odnose na prateće dokumente (RacunPDZahtjev, RacunPDOdgovor)
+	- izbačeni elementi koji se odnose na prateće dokumente iz metode za promjenu načina plaćanja (PromijeniNacPlacZahtjev)
+                JirPD, ZastKodPD
+	- izbačeni elementi koji se odnose na prateće dokumente iz metode za prijavu napojnice (NapojnicaZahtjev)
+                JirPD, ZastKodPD
+	- izbačeni elementi za provjeru računa (ProvjeraZahtjev, ProvjeraOdgovor) dio vezan za provjeru računa koji se odnosi na prateće dokumente  
+
+
+
+----------------------------------------------------------------------------------------------------
