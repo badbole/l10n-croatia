@@ -9,7 +9,8 @@
             <field name="arch" type="xml">
                 <field name="l10n_hr_date_document" position="before">
                     <field name="l10n_hr_business_process_type_id"
-                           options="{'no_create_edit': True, 'no_open': True}"/>
+                           widget="selection"
+                           />
                     <field name="l10n_hr_business_process_type_code" invisible="1"/>
                     <field name="l10n_hr_business_process_name"
                             attrs="{'invisible': [('l10n_hr_business_process_type_code', '!=', 'P99')],
