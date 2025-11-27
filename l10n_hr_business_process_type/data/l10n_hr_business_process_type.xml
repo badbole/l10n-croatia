@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo noupdate="1">
+
+    <record id="l10n_hr_business_process_type_p1" model="l10n.hr.business.process.type">
+      <field name="code">P1</field>
+      <field name="name">Fakturiranje isporuka dobara i usluga preko narudžbi na temelju ugovora</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p2" model="l10n.hr.business.process.type">
+      <field name="code">P2</field>
+      <field name="name">Periodično fakturiranje isporuka na temelju ugovora</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p3" model="l10n.hr.business.process.type">
+      <field name="code">P3</field>
+      <field name="name">Fakturiranje isporuka preko nepredviđene narudžbe</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p4" model="l10n.hr.business.process.type">
+      <field name="code">P4</field>
+      <field name="name">Plaćanje predujma (avansno plaćanje)</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p5" model="l10n.hr.business.process.type">
+      <field name="code">P5</field>
+      <field name="name">Plaćanje na licu mjesta</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p6" model="l10n.hr.business.process.type">
+      <field name="code">P6</field>
+      <field name="name">Plaćanje prije isporuke na temelju narudžbe</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p7" model="l10n.hr.business.process.type">
+      <field name="code">P7</field>
+      <field name="name">Računi s referencom na otpremnicu</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p8" model="l10n.hr.business.process.type">
+      <field name="code">P8</field>
+      <field name="name">Računi s referencom na otpremnicu i primku</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p9" model="l10n.hr.business.process.type">
+      <field name="code">P9</field>
+      <field name="name">Odobrenje ili negativno fakturiranje</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p10" model="l10n.hr.business.process.type">
+      <field name="code">P10</field>
+      <field name="name">Korektivno fakturiranje</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p11" model="l10n.hr.business.process.type">
+      <field name="code">P11</field>
+      <field name="name">Parcijalno i završno fakturiranje</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p12" model="l10n.hr.business.process.type">
+      <field name="code">P12</field>
+      <field name="name">Samoizdavanje računa</field>
+    </record>
+
+    <record id="l10n_hr_business_process_type_p99" model="l10n.hr.business.process.type">
+      <field name="code">P99</field>
+      <field name="name">Poslovni proces koji definira kupac</field>
+    </record>
+
+</odoo>

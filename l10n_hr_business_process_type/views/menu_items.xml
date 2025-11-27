@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem action="l10n_hr_business_process_type_action"
+              id="l10n_hr_menu_business_process_type"
+              parent="l10n_hr_codebook.l10n_hr_fiscal_codebooks"
+              sequence="10"/>
+
+</odoo>
