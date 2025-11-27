@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="1">
+        <menuitem id="l10n_hr_fiscal_codebooks"
+                  name="Fiscal Codebooks"
+                  parent="account.menu_finance_configuration"
+                  sequence="10"
+                  groups="account.group_account_manager"/>
+    </data>
+
+</odoo>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_tax_form" model="ir.ui.view">
+        <field name="name">view_tax_form</field>
+        <field name="model">account.tax</field>
+        <field name="inherit_id" ref="account.view_tax_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[last()]" position="after">
+                <page name="croatian_fiscal_2_codebooks" string="Croatian Fiscal 2.0 Codebooks">
+                    <group name="codebook_data">
+                        <group name="left">
+                        </group>
+                        <group name="right">
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
