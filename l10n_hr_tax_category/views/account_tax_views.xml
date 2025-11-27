@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="view_tax_form" model="ir.ui.view">
+        <field name="name">l10n_hr_tax_category.view_tax_form</field>
+        <field name="model">account.tax</field>
+        <field name="inherit_id" ref="l10n_hr_codebook.view_tax_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='croatian_fiscal_2_codebooks']//group[@name='codebook_data']//group[@name='left']" position="inside">
+                <field name="l10n_hr_tax_category_id"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

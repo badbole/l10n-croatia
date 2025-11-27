@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem action="l10n_hr_tax_category_action"
+              name="Tax Categories"
+              id="l10n_hr_menu_tax_category"
+              parent="l10n_hr_codebook.l10n_hr_fiscal_codebooks"
+              sequence="30"/>
+
+</odoo>

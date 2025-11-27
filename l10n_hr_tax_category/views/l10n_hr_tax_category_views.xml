@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="l10n_hr_tax_category_list_view" model="ir.ui.view">
+        <field name="name">l10n.hr.tax.category.list</field>
+        <field name="model">l10n.hr.tax.category</field>
+        <field name="arch" type="xml">
+            <tree string="Tax Categories">
+                <field name="code"/>
+                <field name="name"/>
+                <field name="display_name"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="l10n_hr_tax_category_form_view" model="ir.ui.view">
+        <field name="name">l10n.hr.tax.category.form</field>
+        <field name="model">l10n.hr.tax.category</field>
+        <field name="arch" type="xml">
+            <form string="Tax Category">
+                <sheet>
+                    <div class="oe_title">
+                        <h5>
+                            Tax Category
+                        </h5>
+                        <h1>
+                            <field name="display_name" nolabel="1"/>
+                        </h1>
+                    </div>
+                    <group name="data" string="Tax Category Data">
+                        <group name="code">
+                            <field name="code"/>
+                            <field name="untdid_5305_code"/>
+                            <field name="l10n_hr_untdid_5305_code"/>
+                            <field name="untdid_5153_code"/>
+                        </group>
+                        <group name="name">
+                            <field name="name"/>
+                        </group>
+                    </group>
+                    <group name="category_description">
+                        <field name="description"/>
+                    </group>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="l10n_hr_tax_category_action" model="ir.actions.act_window">
+        <field name="name">Tax Categories</field>
+        <field name="res_model">l10n.hr.tax.category</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>
