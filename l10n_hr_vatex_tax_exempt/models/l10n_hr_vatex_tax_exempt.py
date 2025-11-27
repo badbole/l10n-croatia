@@ -4,7 +4,7 @@ from odoo import models, fields, api
 class L10nHrVatexTaxExempt(models.Model):
     _name = "l10n.hr.vatex.tax.exempt"
     _description = "Defines VATEX tax category."
-    _inherit = ['mail.thread']
+    #_inherit = ['mail.thread']
 
     code = fields.Char(string="Code", required=True)
     name = fields.Char(string="Name", required=True)

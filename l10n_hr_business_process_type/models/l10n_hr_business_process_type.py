@@ -5,7 +5,7 @@ class L10nHrBusinessProcessType(models.Model):
     _name = "l10n.hr.business.process.type"
     _description = "Defines business process type."
     _rec_name = 'display_name'
-    _inherit = ['mail.thread']
+    #_inherit = ['mail.thread']
 
     code = fields.Char(string="Code", required=True)
     name = fields.Char(string="Name", required=True)

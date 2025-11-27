@@ -4,7 +4,7 @@ from odoo import models, fields, api
 class L10nHrTaxCategory(models.Model):
     _name = "l10n.hr.tax.category"
     _description = "Defines UNTDID5305 tax category."
-    _inherit = ['mail.thread']
+    #_inherit = ['mail.thread']
 
     code = fields.Char(string="Code", required=True)
     untdid_5305_code = fields.Char(string="UNTDID 5305 Code", required=True,
