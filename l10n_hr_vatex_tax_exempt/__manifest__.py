@@ -23,6 +23,7 @@
 
     "depends": [
         "l10n_hr_codebook",
+        "l10n_hr_tax_category",
     ],
     "external_dependencies": {
         "python": [],

@@ -8,7 +8,12 @@
         <field name="arch" type="xml">
             <xpath expr="//page[@name='croatian_fiscal_2_codebooks']//group[@name='codebook_data']//group[@name='right']"
                    position="inside">
-                <field name="l10n_hr_vatex_tax_exempt_id"/>
+                <field name="l10n_hr_vatex_tax_exempt_id"
+                        attrs="{
+                        'invisible': [('is_exempt_required', '=', False)],
+                        'required': [('is_exempt_required', '=', True)]
+                        }"/>
+                <field name="is_exempt_required" invisible="1"/>
             </xpath>
         </field>
     </record>
