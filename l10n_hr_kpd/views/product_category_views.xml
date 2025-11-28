@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="l10n_hr_kpd.view_category_property_form" model="ir.ui.view">
+        <field name="name">l10n_hr_kpd.view_category_property_form</field>
+        <field name="model">product.category</field>
+        <field name="inherit_id" ref="l10n_hr_codebook.view_category_property_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='fiscal_2_0']" position="inside">
+                <field name="l10n_hr_kpd_id"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

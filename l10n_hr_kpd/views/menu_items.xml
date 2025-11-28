@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem name="KPD Classification" id="l10n_hr_menu_kpd" action="l10n_hr_kpd_action"
+              parent="l10n_hr_codebook.l10n_hr_fiscal_codebooks" sequence="60"/>
+
+</odoo>
