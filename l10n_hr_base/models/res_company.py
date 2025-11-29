@@ -38,7 +38,7 @@ class Company(models.Model):
                 "%Y-%m-%dT%H:%M:%S"
             ),  # format za metapodatke xml-a ( JOPPD...)
             "datum_racun": tstamp.strftime(
-                "%d.%m.%Y %H:%M"
+                "%d.%m.%Y %H:%M:%S"
             ),  # format za ispis na računu
             "time_stamp": tstamp,  # timestamp, za zapis i izračun vremena obrade
             "odoo_datetime": time_now.strftime(DEFAULT_SERVER_DATETIME_FORMAT),
