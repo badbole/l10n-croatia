@@ -1,4 +1,4 @@
-from odoo import _, fields, models
+from odoo import _, fields, models, api
 from odoo.exceptions import ValidationError
 
 
@@ -6,6 +6,16 @@ class AccountMove(models.Model):
     _name = "account.move"
     _inherit = ["account.move", "l10n.hr.fiskal.mixin", "l10n.hr.xml.mixin"]
 
+
+    l10n_hr_fiskal_model = fields.Selection(
+        selection=[
+            ("f1", "Fiskalizacija 1 (B2C)"),
+            ("f2", "Fiskalizacija 2 (B2B, B2G)"),
+            ("fx", "Nema fiskallizacije (INO, EU)"),
+            ("no", "Not applicable")
+        ], compute="_compute_l10n_hr_fiskal_model",
+        string="Fiscal model"
+    )
     l10n_hr_nacin_placanja = fields.Selection(
         selection_add=[
             ("G", "Cash (bills and coins)"),
@@ -28,6 +38,26 @@ class AccountMove(models.Model):
         help="Log of all messages sent and received for FINA",
     )
 
+    @api.depends('company_id', 'partner_id')
+    def _compute_l10n_hr_fiskal_model(self):
+        for move in self:
+            if move.company_id.country_id.code != "HR" or not move.partner_id:
+                move.l10n_hr_fiskal_model = "no"
+                continue
+            if move.partner_id.country_id.code != "HR":
+                if move.partner_id.is_company:
+                    # strana tvrtka
+                    move.l10n_hr_fiskal_model = "fx"
+                else:
+                    # privatna osoba stranac
+                    move.l10n_hr_fiskal_model = "f1"
+            else:
+                if move.partner_id.is_company:
+                    move.l10n_hr_fiskal_model = "f2"
+                else:
+                    move.l10n_hr_fiskal_model = "f1"
+
+
     def button_fiskaliziraj(self):
         self.ensure_one()
         # ako imam JIR pokreće provjeru ili ako nema fiskalizaciju.
@@ -40,6 +70,7 @@ class AccountMove(models.Model):
         # - possible not fiscalisation of invoices paid on transaction acc?
         # need to put smart options what and when not to send...
         if (
+            self.l10n_hr_fiskal_model == 'f1' and
             not self.l10n_hr_fiskal_uredjaj_id.fiskalisation_active
             and self.l10n_hr_nacin_placanja != "T"
         ):
@@ -50,6 +81,6 @@ class AccountMove(models.Model):
                 )
                 % self.journal_id.display_name
             )
-        if self.l10n_hr_fiskal_uredjaj_id.fiskalisation_active:
+        if self.l10n_hr_fiskal_model == 'f1' and self.l10n_hr_fiskal_uredjaj_id.fiskalisation_active:
             self.fiskaliziraj()
         return res

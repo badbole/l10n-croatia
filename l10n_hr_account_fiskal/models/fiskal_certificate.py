@@ -38,6 +38,12 @@ verzija: 1.5 Datum verzije: 20.12.2019.
    "PrateciDokumentiOdgovor", "RacunPDZahtjev",
    "RacunPDOdgovor" i ostalo vezano za nove elemente.
 
+verzija: 1.7 Datum verzije: 11.10.2023.
+- u WSDL-u dodana nova metoda 'napojnica'
+- u schemi dodani elementi "NapojnicaZahtjev",
+  "NapojnicaOdgovor" i ostalo vezano za nove elemente.
+
+
 """
 
 
@@ -67,7 +73,7 @@ class FiskalCertificate(models.Model):
     fiskal_schema = fields.Selection(
         selection=[
             ("EDUC_v1.6", "DEMO schema v1.6"),
-            ("PROD_V1.6", "PROD Schema v1.6"),
+            ("PROD_v1.6", "PROD Schema v1.6"),
         ],
         string="Fiskalizaction schema",
         help=SCHEMA_HELP,

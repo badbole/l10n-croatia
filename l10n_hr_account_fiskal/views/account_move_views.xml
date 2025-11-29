@@ -6,6 +6,7 @@
         <field name="inherit_id" ref="l10n_hr_account_base.view_l10n_hr_move_form" />
         <field name="arch" type="xml">
             <field name="l10n_hr_nacin_placanja" position="after">
+                <field name="l10n_hr_fiskal_model"/>
                 <field name="l10n_hr_paragon_br" />
                 <field name="l10n_hr_fiskal_user_id" />
                 <field name="l10n_hr_late_delivery" />
@@ -13,7 +14,7 @@
                     string="Fiskaliziraj"
                     type="object"
                     name="button_fiskaliziraj"
-                    attrs="{'invisible':[('l10n_hr_fiskalni_broj', '=', False)]}"
+                    attrs="{'invisible':['|',('l10n_hr_fiskal_model','!=','f1'),('l10n_hr_fiskalni_broj', '=', False)]}"
                 />
             </field>
             <group name="l10n_hr_base_fiskal" position="after">
@@ -25,11 +26,13 @@
                     <field name="l10n_hr_jir" />
                     <field name="l10n_hr_fiskal_qr" widget="image" />
                 </group>
-                <field name="l10n_hr_fiskal_log_ids" />
+                <field name="l10n_hr_fiskal_log_ids"
+                       attrs="{'invisible':['|',('l10n_hr_fiskal_model','!=','f1'),('l10n_hr_fiskalni_broj', '=', False)]}"/>
             </group>
             <!--Move @l10n_hr_nacin_placanja in header, because it has greater significance-->
             <xpath expr="//field[@name='invoice_payment_term_id']/.." position="after">
-                <field name="l10n_hr_nacin_placanja" position="move"/>
+                <field name="l10n_hr_nacin_placanja"
+                       attrs="{'invisible':[('l10n_hr_fiskal_model','!=','f1')]}"/>
             </xpath>
         </field>
     </record>
