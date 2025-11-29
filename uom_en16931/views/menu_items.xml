@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem action="uom_en16931_action"
+              name="EN16931 UoMs"
+              id="menu_uom_en16931"
+              parent="sale.next_id_16"
+              sequence="50"/>
+
+</odoo>

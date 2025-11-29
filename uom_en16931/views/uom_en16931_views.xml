@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="uom_en16931_list_view" model="ir.ui.view">
+        <field name="name">uom.en16931.list_view</field>
+        <field name="model">uom.en16931</field>
+        <field name="arch" type="xml">
+            <tree string="EN16931 UoMs">
+                <field name="code"/>
+                <field name="name"/>
+                <field name="display_name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="uom_en16931_form_view" model="ir.ui.view">
+        <field name="name">uom.en16931.form_view</field>
+        <field name="model">uom.en16931</field>
+        <field name="arch" type="xml">
+            <form string="EN16931 UoM">
+                <sheet>
+                    <div class="oe_title">
+                        <h5>
+                            EN16931 UoM
+                        </h5>
+                        <h1>
+                            <field name="display_name" nolabel="1"/>
+                        </h1>
+                    </div>
+                    <group name="data" string="UoM Data">
+                        <group name="code">
+                            <field name="code"/>
+                        </group>
+                        <group name="name">
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="uom_en16931_action" model="ir.actions.act_window">
+        <field name="name">EN16931 UoM</field>
+        <field name="res_model">uom.en16931</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

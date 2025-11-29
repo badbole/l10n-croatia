@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="uom_en16931.product_uom_form_view" model="ir.ui.view">
+        <field name="name">uom_en16931.product_uom_form_view</field>
+        <field name="model">uom.uom</field>
+        <field name="inherit_id" ref="uom.product_uom_form_view"/>
+        <field name="arch" type="xml">
+            <field name="category_id" position="after">
+                <field name="uom_en16931_id"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>

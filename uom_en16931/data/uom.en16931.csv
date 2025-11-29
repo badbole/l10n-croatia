@@ -1,0 +1,2163 @@
+id,code,name
+en16931_uom_10,10,group
+en16931_uom_11,11,outfit
+en16931_uom_13,13,ration
+en16931_uom_14,14,shot
+en16931_uom_15,15,"stick, military"
+en16931_uom_20,20,twenty foot container
+en16931_uom_21,21,forty foot container
+en16931_uom_22,22,decilitre per gram
+en16931_uom_23,23,gram per cubic centimetre
+en16931_uom_24,24,theoretical pound
+en16931_uom_25,25,gram per square centimetre
+en16931_uom_27,27,theoretical ton
+en16931_uom_28,28,kilogram per square metre
+en16931_uom_33,33,kilopascal square metre per gram
+en16931_uom_34,34,kilopascal per millimetre
+en16931_uom_35,35,millilitre per square centimetre second
+en16931_uom_37,37,ounce per square foot
+en16931_uom_38,38,"ounce per square foot per 0,01inch"
+en16931_uom_40,40,millilitre per second
+en16931_uom_41,41,millilitre per minute
+en16931_uom_56,56,sitas
+en16931_uom_57,57,mesh
+en16931_uom_58,58,net kilogram
+en16931_uom_59,59,part per million
+en16931_uom_60,60,percent weight
+en16931_uom_61,61,part per billion (US)
+en16931_uom_74,74,millipascal
+en16931_uom_77,77,milli-inch
+en16931_uom_80,80,pound per square inch absolute
+en16931_uom_81,81,henry
+en16931_uom_85,85,foot pound-force
+en16931_uom_87,87,pound per cubic foot
+en16931_uom_89,89,poise
+en16931_uom_91,91,stokes
+en16931_uom_1I,1I,fixed rate
+en16931_uom_2A,2A,radian per second
+en16931_uom_2B,2B,radian per second squared
+en16931_uom_2C,2C,roentgen
+en16931_uom_2G,2G,volt AC
+en16931_uom_2H,2H,volt DC
+en16931_uom_2I,2I,British thermal unit (international table) per hour
+en16931_uom_2J,2J,cubic centimetre per second
+en16931_uom_2K,2K,cubic foot per hour
+en16931_uom_2L,2L,cubic foot per minute
+en16931_uom_2M,2M,centimetre per second
+en16931_uom_2N,2N,decibel
+en16931_uom_2P,2P,kilobyte
+en16931_uom_2Q,2Q,kilobecquerel
+en16931_uom_2R,2R,kilocurie
+en16931_uom_2U,2U,megagram
+en16931_uom_2X,2X,metre per minute
+en16931_uom_2Y,2Y,milliroentgen
+en16931_uom_2Z,2Z,millivolt
+en16931_uom_3B,3B,megajoule
+en16931_uom_3C,3C,manmonth
+en16931_uom_4C,4C,centistokes
+en16931_uom_4G,4G,microlitre
+en16931_uom_4H,4H,micrometre (micron)
+en16931_uom_4K,4K,milliampere
+en16931_uom_4L,4L,megabyte
+en16931_uom_4M,4M,milligram per hour
+en16931_uom_4N,4N,megabecquerel
+en16931_uom_4O,4O,microfarad
+en16931_uom_4P,4P,newton per metre
+en16931_uom_4Q,4Q,ounce inch
+en16931_uom_4R,4R,ounce foot
+en16931_uom_4T,4T,picofarad
+en16931_uom_4U,4U,pound per hour
+en16931_uom_4W,4W,ton (US) per hour
+en16931_uom_4X,4X,kilolitre per hour
+en16931_uom_5A,5A,barrel (US) per minute
+en16931_uom_5B,5B,batch
+en16931_uom_5E,5E,MMSCF/day
+en16931_uom_5J,5J,hydraulic horse power
+en16931_uom_A10,A10,ampere square metre per joule second
+en16931_uom_A11,A11,angstrom
+en16931_uom_A12,A12,astronomical unit
+en16931_uom_A13,A13,attojoule
+en16931_uom_A14,A14,barn
+en16931_uom_A15,A15,barn per electronvolt
+en16931_uom_A16,A16,barn per steradian electronvolt
+en16931_uom_A17,A17,barn per steradian
+en16931_uom_A18,A18,becquerel per kilogram
+en16931_uom_A19,A19,becquerel per cubic metre
+en16931_uom_A2,A2,ampere per centimetre
+en16931_uom_A20,A20,British thermal unit (international table) per second square foot degree Rankine
+en16931_uom_A21,A21,British thermal unit (international table) per pound degree Rankine
+en16931_uom_A22,A22,British thermal unit (international table) per second foot degree Rankine
+en16931_uom_A23,A23,British thermal unit (international table) per hour square foot degree Rankine
+en16931_uom_A24,A24,candela per square metre
+en16931_uom_A26,A26,coulomb metre
+en16931_uom_A27,A27,coulomb metre squared per volt
+en16931_uom_A28,A28,coulomb per cubic centimetre
+en16931_uom_A29,A29,coulomb per cubic metre
+en16931_uom_A3,A3,ampere per millimetre
+en16931_uom_A30,A30,coulomb per cubic millimetre
+en16931_uom_A31,A31,coulomb per kilogram second
+en16931_uom_A32,A32,coulomb per mole
+en16931_uom_A33,A33,coulomb per square centimetre
+en16931_uom_A34,A34,coulomb per square metre
+en16931_uom_A35,A35,coulomb per square millimetre
+en16931_uom_A36,A36,cubic centimetre per mole
+en16931_uom_A37,A37,cubic decimetre per mole
+en16931_uom_A38,A38,cubic metre per coulomb
+en16931_uom_A39,A39,cubic metre per kilogram
+en16931_uom_A4,A4,ampere per square centimetre
+en16931_uom_A40,A40,cubic metre per mole
+en16931_uom_A41,A41,ampere per square metre
+en16931_uom_A42,A42,curie per kilogram
+en16931_uom_A43,A43,deadweight tonnage
+en16931_uom_A44,A44,decalitre
+en16931_uom_A45,A45,decametre
+en16931_uom_A47,A47,decitex
+en16931_uom_A48,A48,degree Rankine
+en16931_uom_A49,A49,denier
+en16931_uom_A5,A5,ampere square metre
+en16931_uom_A53,A53,electronvolt
+en16931_uom_A54,A54,electronvolt per metre
+en16931_uom_A55,A55,electronvolt square metre
+en16931_uom_A56,A56,electronvolt square metre per kilogram
+en16931_uom_A59,A59,8-part cloud cover
+en16931_uom_A6,A6,ampere per square metre kelvin squared
+en16931_uom_A68,A68,exajoule
+en16931_uom_A69,A69,farad per metre
+en16931_uom_A7,A7,ampere per square millimetre
+en16931_uom_A70,A70,femtojoule
+en16931_uom_A71,A71,femtometre
+en16931_uom_A73,A73,foot per second squared
+en16931_uom_A74,A74,foot pound-force per second
+en16931_uom_A75,A75,freight ton
+en16931_uom_A76,A76,gal
+en16931_uom_A8,A8,ampere second
+en16931_uom_A84,A84,gigacoulomb per cubic metre
+en16931_uom_A85,A85,gigaelectronvolt
+en16931_uom_A86,A86,gigahertz
+en16931_uom_A87,A87,gigaohm
+en16931_uom_A88,A88,gigaohm metre
+en16931_uom_A89,A89,gigapascal
+en16931_uom_A9,A9,rate
+en16931_uom_A90,A90,gigawatt
+en16931_uom_A91,A91,gon
+en16931_uom_A93,A93,gram per cubic metre
+en16931_uom_A94,A94,gram per mole
+en16931_uom_A95,A95,gray
+en16931_uom_A96,A96,gray per second
+en16931_uom_A97,A97,hectopascal
+en16931_uom_A98,A98,henry per metre
+en16931_uom_A99,A99,bit
+en16931_uom_AA,AA,ball
+en16931_uom_AB,AB,bulk pack
+en16931_uom_ACR,ACR,acre
+en16931_uom_ACT,ACT,activity
+en16931_uom_AD,AD,byte
+en16931_uom_AE,AE,ampere per metre
+en16931_uom_AH,AH,additional minute
+en16931_uom_AI,AI,average minute per call
+en16931_uom_AK,AK,fathom
+en16931_uom_AL,AL,access line
+en16931_uom_AMH,AMH,ampere hour
+en16931_uom_AMP,AMP,ampere
+en16931_uom_ANN,ANN,year
+en16931_uom_APZ,APZ,troy ounce or apothecary ounce
+en16931_uom_AQ,AQ,anti-hemophilic factor (AHF) unit
+en16931_uom_AS,AS,assortment
+en16931_uom_ASM,ASM,alcoholic strength by mass
+en16931_uom_ASU,ASU,alcoholic strength by volume
+en16931_uom_ATM,ATM,standard atmosphere
+en16931_uom_AWG,AWG,american wire gauge
+en16931_uom_AY,AY,assembly
+en16931_uom_AZ,AZ,British thermal unit (international table) per pound
+en16931_uom_B1,B1,barrel (US) per day
+en16931_uom_B10,B10,bit per second
+en16931_uom_B11,B11,joule per kilogram kelvin
+en16931_uom_B12,B12,joule per metre
+en16931_uom_B13,B13,joule per square metre
+en16931_uom_B14,B14,joule per metre to the fourth power
+en16931_uom_B15,B15,joule per mole
+en16931_uom_B16,B16,joule per mole kelvin
+en16931_uom_B17,B17,credit
+en16931_uom_B18,B18,joule second
+en16931_uom_B19,B19,digit
+en16931_uom_B20,B20,joule square metre per kilogram
+en16931_uom_B21,B21,kelvin per watt
+en16931_uom_B22,B22,kiloampere
+en16931_uom_B23,B23,kiloampere per square metre
+en16931_uom_B24,B24,kiloampere per metre
+en16931_uom_B25,B25,kilobecquerel per kilogram
+en16931_uom_B26,B26,kilocoulomb
+en16931_uom_B27,B27,kilocoulomb per cubic metre
+en16931_uom_B28,B28,kilocoulomb per square metre
+en16931_uom_B29,B29,kiloelectronvolt
+en16931_uom_B3,B3,batting pound
+en16931_uom_B30,B30,gibibit
+en16931_uom_B31,B31,kilogram metre per second
+en16931_uom_B32,B32,kilogram metre squared
+en16931_uom_B33,B33,kilogram metre squared per second
+en16931_uom_B34,B34,kilogram per cubic decimetre
+en16931_uom_B35,B35,kilogram per litre
+en16931_uom_B4,B4,"barrel, imperial"
+en16931_uom_B41,B41,kilojoule per kelvin
+en16931_uom_B42,B42,kilojoule per kilogram
+en16931_uom_B43,B43,kilojoule per kilogram kelvin
+en16931_uom_B44,B44,kilojoule per mole
+en16931_uom_B45,B45,kilomole
+en16931_uom_B46,B46,kilomole per cubic metre
+en16931_uom_B47,B47,kilonewton
+en16931_uom_B48,B48,kilonewton metre
+en16931_uom_B49,B49,kiloohm
+en16931_uom_B50,B50,kiloohm metre
+en16931_uom_B52,B52,kilosecond
+en16931_uom_B53,B53,kilosiemens
+en16931_uom_B54,B54,kilosiemens per metre
+en16931_uom_B55,B55,kilovolt per metre
+en16931_uom_B56,B56,kiloweber per metre
+en16931_uom_B57,B57,light year
+en16931_uom_B58,B58,litre per mole
+en16931_uom_B59,B59,lumen hour
+en16931_uom_B60,B60,lumen per square metre
+en16931_uom_B61,B61,lumen per watt
+en16931_uom_B62,B62,lumen second
+en16931_uom_B63,B63,lux hour
+en16931_uom_B64,B64,lux second
+en16931_uom_B66,B66,megaampere per square metre
+en16931_uom_B67,B67,megabecquerel per kilogram
+en16931_uom_B68,B68,gigabit
+en16931_uom_B69,B69,megacoulomb per cubic metre
+en16931_uom_B7,B7,cycle
+en16931_uom_B70,B70,megacoulomb per square metre
+en16931_uom_B71,B71,megaelectronvolt
+en16931_uom_B72,B72,megagram per cubic metre
+en16931_uom_B73,B73,meganewton
+en16931_uom_B74,B74,meganewton metre
+en16931_uom_B75,B75,megaohm
+en16931_uom_B76,B76,megaohm metre
+en16931_uom_B77,B77,megasiemens per metre
+en16931_uom_B78,B78,megavolt
+en16931_uom_B79,B79,megavolt per metre
+en16931_uom_B8,B8,joule per cubic metre
+en16931_uom_B80,B80,gigabit per second
+en16931_uom_B81,B81,reciprocal metre squared reciprocal second
+en16931_uom_B82,B82,inch per linear foot
+en16931_uom_B83,B83,metre to the fourth power
+en16931_uom_B84,B84,microampere
+en16931_uom_B85,B85,microbar
+en16931_uom_B86,B86,microcoulomb
+en16931_uom_B87,B87,microcoulomb per cubic metre
+en16931_uom_B88,B88,microcoulomb per square metre
+en16931_uom_B89,B89,microfarad per metre
+en16931_uom_B90,B90,microhenry
+en16931_uom_B91,B91,microhenry per metre
+en16931_uom_B92,B92,micronewton
+en16931_uom_B93,B93,micronewton metre
+en16931_uom_B94,B94,microohm
+en16931_uom_B95,B95,microohm metre
+en16931_uom_B96,B96,micropascal
+en16931_uom_B97,B97,microradian
+en16931_uom_B98,B98,microsecond
+en16931_uom_B99,B99,microsiemens
+en16931_uom_BAR,BAR,bar [unit of pressure]
+en16931_uom_BB,BB,base box
+en16931_uom_BFT,BFT,board foot
+en16931_uom_BHP,BHP,brake horse power
+en16931_uom_BIL,BIL,billion (EUR)
+en16931_uom_BLD,BLD,dry barrel (US)
+en16931_uom_BLL,BLL,barrel (US)
+en16931_uom_BP,BP,hundred board foot
+en16931_uom_BPM,BPM,beats per minute
+en16931_uom_BQL,BQL,becquerel
+en16931_uom_BTU,BTU,British thermal unit (international table)
+en16931_uom_BUA,BUA,bushel (US)
+en16931_uom_BUI,BUI,bushel (UK)
+en16931_uom_C0,C0,call
+en16931_uom_C10,C10,millifarad
+en16931_uom_C11,C11,milligal
+en16931_uom_C12,C12,milligram per metre
+en16931_uom_C13,C13,milligray
+en16931_uom_C14,C14,millihenry
+en16931_uom_C15,C15,millijoule
+en16931_uom_C16,C16,millimetre per second
+en16931_uom_C17,C17,millimetre squared per second
+en16931_uom_C18,C18,millimole
+en16931_uom_C19,C19,mole per kilogram
+en16931_uom_C20,C20,millinewton
+en16931_uom_C21,C21,kibibit
+en16931_uom_C22,C22,millinewton per metre
+en16931_uom_C23,C23,milliohm metre
+en16931_uom_C24,C24,millipascal second
+en16931_uom_C25,C25,milliradian
+en16931_uom_C26,C26,millisecond
+en16931_uom_C27,C27,millisiemens
+en16931_uom_C28,C28,millisievert
+en16931_uom_C29,C29,millitesla
+en16931_uom_C3,C3,microvolt per metre
+en16931_uom_C30,C30,millivolt per metre
+en16931_uom_C31,C31,milliwatt
+en16931_uom_C32,C32,milliwatt per square metre
+en16931_uom_C33,C33,milliweber
+en16931_uom_C34,C34,mole
+en16931_uom_C35,C35,mole per cubic decimetre
+en16931_uom_C36,C36,mole per cubic metre
+en16931_uom_C37,C37,kilobit
+en16931_uom_C38,C38,mole per litre
+en16931_uom_C39,C39,nanoampere
+en16931_uom_C40,C40,nanocoulomb
+en16931_uom_C41,C41,nanofarad
+en16931_uom_C42,C42,nanofarad per metre
+en16931_uom_C43,C43,nanohenry
+en16931_uom_C44,C44,nanohenry per metre
+en16931_uom_C45,C45,nanometre
+en16931_uom_C46,C46,nanoohm metre
+en16931_uom_C47,C47,nanosecond
+en16931_uom_C48,C48,nanotesla
+en16931_uom_C49,C49,nanowatt
+en16931_uom_C50,C50,neper
+en16931_uom_C51,C51,neper per second
+en16931_uom_C52,C52,picometre
+en16931_uom_C53,C53,newton metre second
+en16931_uom_C54,C54,newton metre squared per kilogram squared
+en16931_uom_C55,C55,newton per square metre
+en16931_uom_C56,C56,newton per square millimetre
+en16931_uom_C57,C57,newton second
+en16931_uom_C58,C58,newton second per metre
+en16931_uom_C59,C59,octave
+en16931_uom_C60,C60,ohm centimetre
+en16931_uom_C61,C61,ohm metre
+en16931_uom_C62,C62,one
+en16931_uom_C63,C63,parsec
+en16931_uom_C64,C64,pascal per kelvin
+en16931_uom_C65,C65,pascal second
+en16931_uom_C66,C66,pascal second per cubic metre
+en16931_uom_C67,C67,pascal second per metre
+en16931_uom_C68,C68,petajoule
+en16931_uom_C69,C69,phon
+en16931_uom_C7,C7,centipoise
+en16931_uom_C70,C70,picoampere
+en16931_uom_C71,C71,picocoulomb
+en16931_uom_C72,C72,picofarad per metre
+en16931_uom_C73,C73,picohenry
+en16931_uom_C74,C74,kilobit per second
+en16931_uom_C75,C75,picowatt
+en16931_uom_C76,C76,picowatt per square metre
+en16931_uom_C78,C78,pound-force
+en16931_uom_C79,C79,kilovolt ampere hour
+en16931_uom_C8,C8,millicoulomb per kilogram
+en16931_uom_C80,C80,rad
+en16931_uom_C81,C81,radian
+en16931_uom_C82,C82,radian square metre per mole
+en16931_uom_C83,C83,radian square metre per kilogram
+en16931_uom_C84,C84,radian per metre
+en16931_uom_C85,C85,reciprocal angstrom
+en16931_uom_C86,C86,reciprocal cubic metre
+en16931_uom_C87,C87,reciprocal cubic metre per second
+en16931_uom_C88,C88,reciprocal electron volt per cubic metre
+en16931_uom_C89,C89,reciprocal henry
+en16931_uom_C9,C9,coil group
+en16931_uom_C90,C90,reciprocal joule per cubic metre
+en16931_uom_C91,C91,reciprocal kelvin or kelvin to the power minus one
+en16931_uom_C92,C92,reciprocal metre
+en16931_uom_C93,C93,reciprocal square metre
+en16931_uom_C94,C94,reciprocal minute
+en16931_uom_C95,C95,reciprocal mole
+en16931_uom_C96,C96,reciprocal pascal or pascal to the power minus one
+en16931_uom_C97,C97,reciprocal second
+en16931_uom_C99,C99,reciprocal second per metre squared
+en16931_uom_CCT,CCT,carrying capacity in metric ton
+en16931_uom_CDL,CDL,candela
+en16931_uom_CEL,CEL,degree Celsius
+en16931_uom_CEN,CEN,hundred
+en16931_uom_CG,CG,card
+en16931_uom_CGM,CGM,centigram
+en16931_uom_CKG,CKG,coulomb per kilogram
+en16931_uom_CLF,CLF,hundred leave
+en16931_uom_CLT,CLT,centilitre
+en16931_uom_CMK,CMK,square centimetre
+en16931_uom_CMQ,CMQ,cubic centimetre
+en16931_uom_CMT,CMT,centimetre
+en16931_uom_CNP,CNP,hundred pack
+en16931_uom_CNT,CNT,cental (UK)
+en16931_uom_COU,COU,coulomb
+en16931_uom_CTG,CTG,content gram
+en16931_uom_CTM,CTM,metric carat
+en16931_uom_CTN,CTN,content ton (metric)
+en16931_uom_CUR,CUR,curie
+en16931_uom_CWA,CWA,hundred pound (cwt) / hundred weight (US)
+en16931_uom_CWI,CWI,hundred weight (UK)
+en16931_uom_D03,D03,kilowatt hour per hour
+en16931_uom_D04,D04,lot  [unit of weight]
+en16931_uom_D1,D1,reciprocal second per steradian
+en16931_uom_D10,D10,siemens per metre
+en16931_uom_D11,D11,mebibit
+en16931_uom_D12,D12,siemens square metre per mole
+en16931_uom_D13,D13,sievert
+en16931_uom_D15,D15,sone
+en16931_uom_D16,D16,square centimetre per erg
+en16931_uom_D17,D17,square centimetre per steradian erg
+en16931_uom_D18,D18,metre kelvin
+en16931_uom_D19,D19,square metre kelvin per watt
+en16931_uom_D2,D2,reciprocal second per steradian metre squared
+en16931_uom_D20,D20,square metre per joule
+en16931_uom_D21,D21,square metre per kilogram
+en16931_uom_D22,D22,square metre per mole
+en16931_uom_D23,D23,pen gram (protein)
+en16931_uom_D24,D24,square metre per steradian
+en16931_uom_D25,D25,square metre per steradian joule
+en16931_uom_D26,D26,square metre per volt second
+en16931_uom_D27,D27,steradian
+en16931_uom_D29,D29,terahertz
+en16931_uom_D30,D30,terajoule
+en16931_uom_D31,D31,terawatt
+en16931_uom_D32,D32,terawatt hour
+en16931_uom_D33,D33,tesla
+en16931_uom_D34,D34,tex
+en16931_uom_D36,D36,megabit
+en16931_uom_D41,D41,tonne per cubic metre
+en16931_uom_D42,D42,tropical year
+en16931_uom_D43,D43,unified atomic mass unit
+en16931_uom_D44,D44,var
+en16931_uom_D45,D45,volt squared per kelvin squared
+en16931_uom_D46,D46,volt - ampere
+en16931_uom_D47,D47,volt per centimetre
+en16931_uom_D48,D48,volt per kelvin
+en16931_uom_D49,D49,millivolt per kelvin
+en16931_uom_D5,D5,kilogram per square centimetre
+en16931_uom_D50,D50,volt per metre
+en16931_uom_D51,D51,volt per millimetre
+en16931_uom_D52,D52,watt per kelvin
+en16931_uom_D53,D53,watt per metre kelvin
+en16931_uom_D54,D54,watt per square metre
+en16931_uom_D55,D55,watt per square metre kelvin
+en16931_uom_D56,D56,watt per square metre kelvin to the fourth power
+en16931_uom_D57,D57,watt per steradian
+en16931_uom_D58,D58,watt per steradian square metre
+en16931_uom_D59,D59,weber per metre
+en16931_uom_D6,D6,roentgen per second
+en16931_uom_D60,D60,weber per millimetre
+en16931_uom_D61,D61,minute [unit of angle]
+en16931_uom_D62,D62,second [unit of angle]
+en16931_uom_D63,D63,book
+en16931_uom_D65,D65,round
+en16931_uom_D68,D68,number of words
+en16931_uom_D69,D69,inch to the fourth power
+en16931_uom_D73,D73,joule square metre
+en16931_uom_D74,D74,kilogram per mole
+en16931_uom_D77,D77,megacoulomb
+en16931_uom_D78,D78,megajoule per second
+en16931_uom_D80,D80,microwatt
+en16931_uom_D81,D81,microtesla
+en16931_uom_D82,D82,microvolt
+en16931_uom_D83,D83,millinewton metre
+en16931_uom_D85,D85,microwatt per square metre
+en16931_uom_D86,D86,millicoulomb
+en16931_uom_D87,D87,millimole per kilogram
+en16931_uom_D88,D88,millicoulomb per cubic metre
+en16931_uom_D89,D89,millicoulomb per square metre
+en16931_uom_D91,D91,rem
+en16931_uom_D93,D93,second per cubic metre
+en16931_uom_D94,D94,second per cubic metre radian
+en16931_uom_D95,D95,joule per gram
+en16931_uom_DAA,DAA,decare
+en16931_uom_DAD,DAD,ten day
+en16931_uom_DAY,DAY,day
+en16931_uom_DB,DB,dry pound
+en16931_uom_DBM,DBM,Decibel-milliwatts
+en16931_uom_DBW,DBW,Decibel watt
+en16931_uom_DD,DD,degree [unit of angle]
+en16931_uom_DEC,DEC,decade
+en16931_uom_DG,DG,decigram
+en16931_uom_DJ,DJ,decagram
+en16931_uom_DLT,DLT,decilitre
+en16931_uom_DMA,DMA,cubic decametre
+en16931_uom_DMK,DMK,square decimetre
+en16931_uom_DMO,DMO,standard kilolitre
+en16931_uom_DMQ,DMQ,cubic decimetre
+en16931_uom_DMT,DMT,decimetre
+en16931_uom_DN,DN,decinewton metre
+en16931_uom_DPC,DPC,dozen piece
+en16931_uom_DPR,DPR,dozen pair
+en16931_uom_DPT,DPT,displacement tonnage
+en16931_uom_DRA,DRA,dram (US)
+en16931_uom_DRI,DRI,dram (UK)
+en16931_uom_DRL,DRL,dozen roll
+en16931_uom_DT,DT,dry ton
+en16931_uom_DTN,DTN,decitonne
+en16931_uom_DWT,DWT,pennyweight
+en16931_uom_DZN,DZN,dozen
+en16931_uom_DZP,DZP,dozen pack
+en16931_uom_E01,E01,newton per square centimetre
+en16931_uom_E07,E07,megawatt hour per hour
+en16931_uom_E08,E08,megawatt per hertz
+en16931_uom_E09,E09,milliampere hour
+en16931_uom_E10,E10,degree day
+en16931_uom_E12,E12,mille
+en16931_uom_E14,E14,kilocalorie (international table)
+en16931_uom_E15,E15,kilocalorie (thermochemical) per hour
+en16931_uom_E16,E16,million Btu(IT) per hour
+en16931_uom_E17,E17,cubic foot per second
+en16931_uom_E18,E18,tonne per hour
+en16931_uom_E19,E19,ping
+en16931_uom_E20,E20,megabit per second
+en16931_uom_E21,E21,shares
+en16931_uom_E22,E22,TEU
+en16931_uom_E23,E23,tyre
+en16931_uom_E25,E25,active unit
+en16931_uom_E27,E27,dose
+en16931_uom_E28,E28,air dry ton
+en16931_uom_E30,E30,strand
+en16931_uom_E31,E31,square metre per litre
+en16931_uom_E32,E32,litre per hour
+en16931_uom_E33,E33,foot per thousand
+en16931_uom_E34,E34,gigabyte
+en16931_uom_E35,E35,terabyte
+en16931_uom_E36,E36,petabyte
+en16931_uom_E37,E37,pixel
+en16931_uom_E38,E38,megapixel
+en16931_uom_E39,E39,dots per inch
+en16931_uom_E4,E4,gross kilogram
+en16931_uom_E40,E40,part per hundred thousand
+en16931_uom_E41,E41,kilogram-force per square millimetre
+en16931_uom_E42,E42,kilogram-force per square centimetre
+en16931_uom_E43,E43,joule per square centimetre
+en16931_uom_E44,E44,kilogram-force metre per square centimetre
+en16931_uom_E45,E45,milliohm
+en16931_uom_E46,E46,kilowatt hour per cubic metre
+en16931_uom_E47,E47,kilowatt hour per kelvin
+en16931_uom_E48,E48,service unit
+en16931_uom_E49,E49,working day
+en16931_uom_E50,E50,accounting unit
+en16931_uom_E51,E51,job
+en16931_uom_E52,E52,run foot
+en16931_uom_E53,E53,test
+en16931_uom_E54,E54,trip
+en16931_uom_E55,E55,use
+en16931_uom_E56,E56,well
+en16931_uom_E57,E57,zone
+en16931_uom_E58,E58,exabit per second
+en16931_uom_E59,E59,exbibyte
+en16931_uom_E60,E60,pebibyte
+en16931_uom_E61,E61,tebibyte
+en16931_uom_E62,E62,gibibyte
+en16931_uom_E63,E63,mebibyte
+en16931_uom_E64,E64,kibibyte
+en16931_uom_E65,E65,exbibit per metre
+en16931_uom_E66,E66,exbibit per square metre
+en16931_uom_E67,E67,exbibit per cubic metre
+en16931_uom_E68,E68,gigabyte per second
+en16931_uom_E69,E69,gibibit per metre
+en16931_uom_E70,E70,gibibit per square metre
+en16931_uom_E71,E71,gibibit per cubic metre
+en16931_uom_E72,E72,kibibit per metre
+en16931_uom_E73,E73,kibibit per square metre
+en16931_uom_E74,E74,kibibit per cubic metre
+en16931_uom_E75,E75,mebibit per metre
+en16931_uom_E76,E76,mebibit per square metre
+en16931_uom_E77,E77,mebibit per cubic metre
+en16931_uom_E78,E78,petabit
+en16931_uom_E79,E79,petabit per second
+en16931_uom_E80,E80,pebibit per metre
+en16931_uom_E81,E81,pebibit per square metre
+en16931_uom_E82,E82,pebibit per cubic metre
+en16931_uom_E83,E83,terabit
+en16931_uom_E84,E84,terabit per second
+en16931_uom_E85,E85,tebibit per metre
+en16931_uom_E86,E86,tebibit per cubic metre
+en16931_uom_E87,E87,tebibit per square metre
+en16931_uom_E88,E88,bit per metre
+en16931_uom_E89,E89,bit per square metre
+en16931_uom_E90,E90,reciprocal centimetre
+en16931_uom_E91,E91,reciprocal day
+en16931_uom_E92,E92,cubic decimetre per hour
+en16931_uom_E93,E93,kilogram per hour
+en16931_uom_E94,E94,kilomole per second
+en16931_uom_E95,E95,mole per second
+en16931_uom_E96,E96,degree per second
+en16931_uom_E97,E97,millimetre per degree Celcius metre
+en16931_uom_E98,E98,degree Celsius per kelvin
+en16931_uom_E99,E99,hectopascal per bar
+en16931_uom_EA,EA,each
+en16931_uom_EB,EB,electronic mail box
+en16931_uom_EQ,EQ,equivalent gallon
+en16931_uom_F01,F01,bit per cubic metre
+en16931_uom_F02,F02,kelvin per kelvin
+en16931_uom_F03,F03,kilopascal per bar
+en16931_uom_F04,F04,millibar per bar
+en16931_uom_F05,F05,megapascal per bar
+en16931_uom_F06,F06,poise per bar
+en16931_uom_F07,F07,pascal per bar
+en16931_uom_F08,F08,milliampere per inch
+en16931_uom_F10,F10,kelvin per hour
+en16931_uom_F11,F11,kelvin per minute
+en16931_uom_F12,F12,kelvin per second
+en16931_uom_F13,F13,slug
+en16931_uom_F14,F14,gram per kelvin
+en16931_uom_F15,F15,kilogram per kelvin
+en16931_uom_F16,F16,milligram per kelvin
+en16931_uom_F17,F17,pound-force per foot
+en16931_uom_F18,F18,kilogram square centimetre
+en16931_uom_F19,F19,kilogram square millimetre
+en16931_uom_F20,F20,pound inch squared
+en16931_uom_F21,F21,pound-force inch
+en16931_uom_F22,F22,pound-force foot per ampere
+en16931_uom_F23,F23,gram per cubic decimetre
+en16931_uom_F24,F24,kilogram per kilomol
+en16931_uom_F25,F25,gram per hertz
+en16931_uom_F26,F26,gram per day
+en16931_uom_F27,F27,gram per hour
+en16931_uom_F28,F28,gram per minute
+en16931_uom_F29,F29,gram per second
+en16931_uom_F30,F30,kilogram per day
+en16931_uom_F31,F31,kilogram per minute
+en16931_uom_F32,F32,milligram per day
+en16931_uom_F33,F33,milligram per minute
+en16931_uom_F34,F34,milligram per second
+en16931_uom_F35,F35,gram per day kelvin
+en16931_uom_F36,F36,gram per hour kelvin
+en16931_uom_F37,F37,gram per minute kelvin
+en16931_uom_F38,F38,gram per second kelvin
+en16931_uom_F39,F39,kilogram per day kelvin
+en16931_uom_F40,F40,kilogram per hour kelvin
+en16931_uom_F41,F41,kilogram per minute kelvin
+en16931_uom_F42,F42,kilogram per second kelvin
+en16931_uom_F43,F43,milligram per day kelvin
+en16931_uom_F44,F44,milligram per hour kelvin
+en16931_uom_F45,F45,milligram per minute kelvin
+en16931_uom_F46,F46,milligram per second kelvin
+en16931_uom_F47,F47,newton per millimetre
+en16931_uom_F48,F48,pound-force per inch
+en16931_uom_F49,F49,rod [unit of distance]
+en16931_uom_F50,F50,micrometre per kelvin
+en16931_uom_F51,F51,centimetre per kelvin
+en16931_uom_F52,F52,metre per kelvin
+en16931_uom_F53,F53,millimetre per kelvin
+en16931_uom_F54,F54,milliohm per metre
+en16931_uom_F55,F55,ohm per mile (statute mile)
+en16931_uom_F56,F56,ohm per kilometre
+en16931_uom_F57,F57,milliampere per pound-force per square inch
+en16931_uom_F58,F58,reciprocal bar
+en16931_uom_F59,F59,milliampere per bar
+en16931_uom_F60,F60,degree Celsius per bar
+en16931_uom_F61,F61,kelvin per bar
+en16931_uom_F62,F62,gram per day bar
+en16931_uom_F63,F63,gram per hour bar
+en16931_uom_F64,F64,gram per minute bar
+en16931_uom_F65,F65,gram per second bar
+en16931_uom_F66,F66,kilogram per day bar
+en16931_uom_F67,F67,kilogram per hour bar
+en16931_uom_F68,F68,kilogram per minute bar
+en16931_uom_F69,F69,kilogram per second bar
+en16931_uom_F70,F70,milligram per day bar
+en16931_uom_F71,F71,milligram per hour bar
+en16931_uom_F72,F72,milligram per minute bar
+en16931_uom_F73,F73,milligram per second bar
+en16931_uom_F74,F74,gram per bar
+en16931_uom_F75,F75,milligram per bar
+en16931_uom_F76,F76,milliampere per millimetre
+en16931_uom_F77,F77,pascal second per kelvin
+en16931_uom_F78,F78,inch of water
+en16931_uom_F79,F79,inch of mercury
+en16931_uom_F80,F80,water horse power
+en16931_uom_F81,F81,bar per kelvin
+en16931_uom_F82,F82,hectopascal per kelvin
+en16931_uom_F83,F83,kilopascal per kelvin
+en16931_uom_F84,F84,millibar per kelvin
+en16931_uom_F85,F85,megapascal per kelvin
+en16931_uom_F86,F86,poise per kelvin
+en16931_uom_F87,F87,volt per litre minute
+en16931_uom_F88,F88,newton centimetre
+en16931_uom_F89,F89,newton metre per degree
+en16931_uom_F90,F90,newton metre per ampere
+en16931_uom_F91,F91,bar litre per second
+en16931_uom_F92,F92,bar cubic metre per second
+en16931_uom_F93,F93,hectopascal litre per second
+en16931_uom_F94,F94,hectopascal cubic metre per second
+en16931_uom_F95,F95,millibar litre per second
+en16931_uom_F96,F96,millibar cubic metre per second
+en16931_uom_F97,F97,megapascal litre per second
+en16931_uom_F98,F98,megapascal cubic metre per second
+en16931_uom_F99,F99,pascal litre per second
+en16931_uom_FAH,FAH,degree Fahrenheit
+en16931_uom_FAR,FAR,farad
+en16931_uom_FBM,FBM,fibre metre
+en16931_uom_FC,FC,thousand cubic foot
+en16931_uom_FF,FF,hundred cubic metre
+en16931_uom_FH,FH,micromole
+en16931_uom_FIT,FIT,failures in time
+en16931_uom_FL,FL,flake ton
+en16931_uom_FNU,FNU,Formazin nephelometric unit
+en16931_uom_FOT,FOT,foot
+en16931_uom_FP,FP,pound per square foot
+en16931_uom_FR,FR,foot per minute
+en16931_uom_FS,FS,foot per second
+en16931_uom_FTK,FTK,square foot
+en16931_uom_FTQ,FTQ,cubic foot
+en16931_uom_G01,G01,pascal cubic metre per second
+en16931_uom_G04,G04,centimetre per bar
+en16931_uom_G05,G05,metre per bar
+en16931_uom_G06,G06,millimetre per bar
+en16931_uom_G08,G08,square inch per second
+en16931_uom_G09,G09,square metre per second kelvin
+en16931_uom_G10,G10,stokes per kelvin
+en16931_uom_G11,G11,gram per cubic centimetre bar
+en16931_uom_G12,G12,gram per cubic decimetre bar
+en16931_uom_G13,G13,gram per litre bar
+en16931_uom_G14,G14,gram per cubic metre bar
+en16931_uom_G15,G15,gram per millilitre bar
+en16931_uom_G16,G16,kilogram per cubic centimetre bar
+en16931_uom_G17,G17,kilogram per litre bar
+en16931_uom_G18,G18,kilogram per cubic metre bar
+en16931_uom_G19,G19,newton metre per kilogram
+en16931_uom_G2,G2,US gallon per minute
+en16931_uom_G20,G20,pound-force foot per pound
+en16931_uom_G21,G21,cup [unit of volume]
+en16931_uom_G23,G23,peck
+en16931_uom_G24,G24,tablespoon (US)
+en16931_uom_G25,G25,teaspoon (US)
+en16931_uom_G26,G26,stere
+en16931_uom_G27,G27,cubic centimetre per kelvin
+en16931_uom_G28,G28,litre per kelvin
+en16931_uom_G29,G29,cubic metre per kelvin
+en16931_uom_G3,G3,Imperial gallon per minute
+en16931_uom_G30,G30,millilitre per kelvin
+en16931_uom_G31,G31,kilogram per cubic centimetre
+en16931_uom_G32,G32,ounce (avoirdupois) per cubic yard
+en16931_uom_G33,G33,gram per cubic centimetre kelvin
+en16931_uom_G34,G34,gram per cubic decimetre kelvin
+en16931_uom_G35,G35,gram per litre kelvin
+en16931_uom_G36,G36,gram per cubic metre kelvin
+en16931_uom_G37,G37,gram per millilitre kelvin
+en16931_uom_G38,G38,kilogram per cubic centimetre kelvin
+en16931_uom_G39,G39,kilogram per litre kelvin
+en16931_uom_G40,G40,kilogram per cubic metre kelvin
+en16931_uom_G41,G41,square metre per second bar
+en16931_uom_G42,G42,microsiemens per centimetre
+en16931_uom_G43,G43,microsiemens per metre
+en16931_uom_G44,G44,nanosiemens per centimetre
+en16931_uom_G45,G45,nanosiemens per metre
+en16931_uom_G46,G46,stokes per bar
+en16931_uom_G47,G47,cubic centimetre per day
+en16931_uom_G48,G48,cubic centimetre per hour
+en16931_uom_G49,G49,cubic centimetre per minute
+en16931_uom_G50,G50,gallon (US) per hour
+en16931_uom_G51,G51,litre per second
+en16931_uom_G52,G52,cubic metre per day
+en16931_uom_G53,G53,cubic metre per minute
+en16931_uom_G54,G54,millilitre per day
+en16931_uom_G55,G55,millilitre per hour
+en16931_uom_G56,G56,cubic inch per hour
+en16931_uom_G57,G57,cubic inch per minute
+en16931_uom_G58,G58,cubic inch per second
+en16931_uom_G59,G59,milliampere per litre minute
+en16931_uom_G60,G60,volt per bar
+en16931_uom_G61,G61,cubic centimetre per day kelvin
+en16931_uom_G62,G62,cubic centimetre per hour kelvin
+en16931_uom_G63,G63,cubic centimetre per minute kelvin
+en16931_uom_G64,G64,cubic centimetre per second kelvin
+en16931_uom_G65,G65,litre per day kelvin
+en16931_uom_G66,G66,litre per hour kelvin
+en16931_uom_G67,G67,litre per minute kelvin
+en16931_uom_G68,G68,litre per second kelvin
+en16931_uom_G69,G69,cubic metre per day kelvin
+en16931_uom_G70,G70,cubic metre per hour kelvin
+en16931_uom_G71,G71,cubic metre per minute kelvin
+en16931_uom_G72,G72,cubic metre per second kelvin
+en16931_uom_G73,G73,millilitre per day kelvin
+en16931_uom_G74,G74,millilitre per hour kelvin
+en16931_uom_G75,G75,millilitre per minute kelvin
+en16931_uom_G76,G76,millilitre per second kelvin
+en16931_uom_G77,G77,millimetre to the fourth power
+en16931_uom_G78,G78,cubic centimetre per day bar
+en16931_uom_G79,G79,cubic centimetre per hour bar
+en16931_uom_G80,G80,cubic centimetre per minute bar
+en16931_uom_G81,G81,cubic centimetre per second bar
+en16931_uom_G82,G82,litre per day bar
+en16931_uom_G83,G83,litre per hour bar
+en16931_uom_G84,G84,litre per minute bar
+en16931_uom_G85,G85,litre per second bar
+en16931_uom_G86,G86,cubic metre per day bar
+en16931_uom_G87,G87,cubic metre per hour bar
+en16931_uom_G88,G88,cubic metre per minute bar
+en16931_uom_G89,G89,cubic metre per second bar
+en16931_uom_G90,G90,millilitre per day bar
+en16931_uom_G91,G91,millilitre per hour bar
+en16931_uom_G92,G92,millilitre per minute bar
+en16931_uom_G93,G93,millilitre per second bar
+en16931_uom_G94,G94,cubic centimetre per bar
+en16931_uom_G95,G95,litre per bar
+en16931_uom_G96,G96,cubic metre per bar
+en16931_uom_G97,G97,millilitre per bar
+en16931_uom_G98,G98,microhenry per kiloohm
+en16931_uom_G99,G99,microhenry per ohm
+en16931_uom_GB,GB,gallon (US) per day
+en16931_uom_GBQ,GBQ,gigabecquerel
+en16931_uom_GDW,GDW,"gram, dry weight"
+en16931_uom_GE,GE,pound per gallon (US)
+en16931_uom_GF,GF,gram per metre (gram per 100 centimetres)
+en16931_uom_GFI,GFI,gram of fissile isotope
+en16931_uom_GGR,GGR,great gross
+en16931_uom_GIA,GIA,gill (US)
+en16931_uom_GIC,GIC,"gram, including container"
+en16931_uom_GII,GII,gill (UK)
+en16931_uom_GIP,GIP,"gram, including inner packaging"
+en16931_uom_GJ,GJ,gram per millilitre
+en16931_uom_GL,GL,gram per litre
+en16931_uom_GLD,GLD,dry gallon (US)
+en16931_uom_GLI,GLI,gallon (UK)
+en16931_uom_GLL,GLL,gallon (US)
+en16931_uom_GM,GM,gram per square metre
+en16931_uom_GO,GO,milligram per square metre
+en16931_uom_GP,GP,milligram per cubic metre
+en16931_uom_GQ,GQ,microgram per cubic metre
+en16931_uom_GRM,GRM,gram
+en16931_uom_GRN,GRN,grain
+en16931_uom_GRO,GRO,gross
+en16931_uom_GV,GV,gigajoule
+en16931_uom_GWH,GWH,gigawatt hour
+en16931_uom_H03,H03,henry per kiloohm
+en16931_uom_H04,H04,henry per ohm
+en16931_uom_H05,H05,millihenry per kiloohm
+en16931_uom_H06,H06,millihenry per ohm
+en16931_uom_H07,H07,pascal second per bar
+en16931_uom_H08,H08,microbecquerel
+en16931_uom_H09,H09,reciprocal year
+en16931_uom_H10,H10,reciprocal hour
+en16931_uom_H11,H11,reciprocal month
+en16931_uom_H12,H12,degree Celsius per hour
+en16931_uom_H13,H13,degree Celsius per minute
+en16931_uom_H14,H14,degree Celsius per second
+en16931_uom_H15,H15,square centimetre per gram
+en16931_uom_H16,H16,square decametre
+en16931_uom_H18,H18,square hectometre
+en16931_uom_H19,H19,cubic hectometre
+en16931_uom_H20,H20,cubic kilometre
+en16931_uom_H21,H21,blank
+en16931_uom_H22,H22,volt square inch per pound-force
+en16931_uom_H23,H23,volt per inch
+en16931_uom_H24,H24,volt per microsecond
+en16931_uom_H25,H25,percent per kelvin
+en16931_uom_H26,H26,ohm per metre
+en16931_uom_H27,H27,degree per metre
+en16931_uom_H28,H28,microfarad per kilometre
+en16931_uom_H29,H29,microgram per litre
+en16931_uom_H30,H30,square micrometre (square micron)
+en16931_uom_H31,H31,ampere per kilogram
+en16931_uom_H32,H32,ampere squared second
+en16931_uom_H33,H33,farad per kilometre
+en16931_uom_H34,H34,hertz metre
+en16931_uom_H35,H35,kelvin metre per watt
+en16931_uom_H36,H36,megaohm per kilometre
+en16931_uom_H37,H37,megaohm per metre
+en16931_uom_H38,H38,megaampere
+en16931_uom_H39,H39,megahertz kilometre
+en16931_uom_H40,H40,newton per ampere
+en16931_uom_H41,H41,"newton metre watt to the power minus 0,5"
+en16931_uom_H42,H42,pascal per metre
+en16931_uom_H43,H43,siemens per centimetre
+en16931_uom_H44,H44,teraohm
+en16931_uom_H45,H45,volt second per metre
+en16931_uom_H46,H46,volt per second
+en16931_uom_H47,H47,watt per cubic metre
+en16931_uom_H48,H48,attofarad
+en16931_uom_H49,H49,centimetre per hour
+en16931_uom_H50,H50,reciprocal cubic centimetre
+en16931_uom_H51,H51,decibel per kilometre
+en16931_uom_H52,H52,decibel per metre
+en16931_uom_H53,H53,kilogram per bar
+en16931_uom_H54,H54,kilogram per cubic decimetre kelvin
+en16931_uom_H55,H55,kilogram per cubic decimetre bar
+en16931_uom_H56,H56,kilogram per square metre second
+en16931_uom_H57,H57,inch per two pi radiant
+en16931_uom_H58,H58,metre per volt second
+en16931_uom_H59,H59,square metre per newton
+en16931_uom_H60,H60,cubic metre per cubic metre
+en16931_uom_H61,H61,millisiemens per centimetre
+en16931_uom_H62,H62,millivolt per minute
+en16931_uom_H63,H63,milligram per square centimetre
+en16931_uom_H64,H64,milligram per gram
+en16931_uom_H65,H65,millilitre per cubic metre
+en16931_uom_H66,H66,millimetre per year
+en16931_uom_H67,H67,millimetre per hour
+en16931_uom_H68,H68,millimole per gram
+en16931_uom_H69,H69,picopascal per kilometre
+en16931_uom_H70,H70,picosecond
+en16931_uom_H71,H71,percent per month
+en16931_uom_H72,H72,percent per hectobar
+en16931_uom_H73,H73,percent per decakelvin
+en16931_uom_H74,H74,watt per metre
+en16931_uom_H75,H75,decapascal
+en16931_uom_H76,H76,gram per millimetre
+en16931_uom_H77,H77,module width
+en16931_uom_H79,H79,French gauge
+en16931_uom_H80,H80,rack unit
+en16931_uom_H81,H81,millimetre per minute
+en16931_uom_H82,H82,big point
+en16931_uom_H83,H83,litre per kilogram
+en16931_uom_H84,H84,gram millimetre
+en16931_uom_H85,H85,reciprocal week
+en16931_uom_H87,H87,piece
+en16931_uom_H88,H88,megaohm kilometre
+en16931_uom_H89,H89,percent per ohm
+en16931_uom_H90,H90,percent per degree
+en16931_uom_H91,H91,percent per ten thousand
+en16931_uom_H92,H92,percent per one hundred thousand
+en16931_uom_H93,H93,percent per hundred
+en16931_uom_H94,H94,percent per thousand
+en16931_uom_H95,H95,percent per volt
+en16931_uom_H96,H96,percent per bar
+en16931_uom_H98,H98,percent per inch
+en16931_uom_H99,H99,percent per metre
+en16931_uom_HA,HA,hank
+en16931_uom_HAD,HAD,Piece Day
+en16931_uom_HBA,HBA,hectobar
+en16931_uom_HBX,HBX,hundred boxes
+en16931_uom_HC,HC,hundred count
+en16931_uom_HDW,HDW,"hundred kilogram, dry weight"
+en16931_uom_HEA,HEA,head
+en16931_uom_HGM,HGM,hectogram
+en16931_uom_HH,HH,hundred cubic foot
+en16931_uom_HIU,HIU,hundred international unit
+en16931_uom_HKM,HKM,"hundred kilogram, net mass"
+en16931_uom_HLT,HLT,hectolitre
+en16931_uom_HM,HM,mile per hour (statute mile)
+en16931_uom_HMO,HMO,Piece Month
+en16931_uom_HMQ,HMQ,million cubic metre
+en16931_uom_HMT,HMT,hectometre
+en16931_uom_HPA,HPA,hectolitre of pure alcohol
+en16931_uom_HTZ,HTZ,hertz
+en16931_uom_HUR,HUR,hour
+en16931_uom_HWE,HWE,Piece Week
+en16931_uom_IA,IA,inch pound (pound inch)
+en16931_uom_IE,IE,person
+en16931_uom_INH,INH,inch
+en16931_uom_INK,INK,square inch
+en16931_uom_INQ,INQ,cubic inch
+en16931_uom_ISD,ISD,international sugar degree
+en16931_uom_IU,IU,inch per second
+en16931_uom_IUG,IUG,international unit per gram
+en16931_uom_IV,IV,inch per second squared
+en16931_uom_J10,J10,percent per millimetre
+en16931_uom_J12,J12,per mille per psi
+en16931_uom_J13,J13,degree API
+en16931_uom_J14,J14,degree Baume (origin scale)
+en16931_uom_J15,J15,degree Baume (US heavy)
+en16931_uom_J16,J16,degree Baume (US light)
+en16931_uom_J17,J17,degree Balling
+en16931_uom_J18,J18,degree Brix
+en16931_uom_J19,J19,degree Fahrenheit hour square foot per British thermal unit (thermochemical)
+en16931_uom_J2,J2,joule per kilogram
+en16931_uom_J20,J20,degree Fahrenheit per kelvin
+en16931_uom_J21,J21,degree Fahrenheit per bar
+en16931_uom_J22,J22,degree Fahrenheit hour square foot per British thermal unit (international table)
+en16931_uom_J23,J23,degree Fahrenheit per hour
+en16931_uom_J24,J24,degree Fahrenheit per minute
+en16931_uom_J25,J25,degree Fahrenheit per second
+en16931_uom_J26,J26,reciprocal degree Fahrenheit
+en16931_uom_J27,J27,degree Oechsle
+en16931_uom_J28,J28,degree Rankine per hour
+en16931_uom_J29,J29,degree Rankine per minute
+en16931_uom_J30,J30,degree Rankine per second
+en16931_uom_J31,J31,degree Twaddell
+en16931_uom_J32,J32,micropoise
+en16931_uom_J33,J33,microgram per kilogram
+en16931_uom_J34,J34,microgram per cubic metre kelvin
+en16931_uom_J35,J35,microgram per cubic metre bar
+en16931_uom_J36,J36,microlitre per litre
+en16931_uom_J38,J38,baud
+en16931_uom_J39,J39,British thermal unit (mean)
+en16931_uom_J40,J40,British thermal unit (international table) foot per hour square foot degree Fahrenheit
+en16931_uom_J41,J41,British thermal unit (international table) inch per hour square foot degree Fahrenheit
+en16931_uom_J42,J42,British thermal unit (international table) inch per second square foot degree Fahrenheit
+en16931_uom_J43,J43,British thermal unit (international table) per pound degree Fahrenheit
+en16931_uom_J44,J44,British thermal unit (international table) per minute
+en16931_uom_J45,J45,British thermal unit (international table) per second
+en16931_uom_J46,J46,British thermal unit (thermochemical) foot per hour square foot degree Fahrenheit
+en16931_uom_J47,J47,British thermal unit (thermochemical) per hour
+en16931_uom_J48,J48,British thermal unit (thermochemical) inch per hour square foot degree Fahrenheit
+en16931_uom_J49,J49,British thermal unit (thermochemical) inch per second square foot degree Fahrenheit
+en16931_uom_J50,J50,British thermal unit (thermochemical) per pound degree Fahrenheit
+en16931_uom_J51,J51,British thermal unit (thermochemical) per minute
+en16931_uom_J52,J52,British thermal unit (thermochemical) per second
+en16931_uom_J53,J53,coulomb square metre per kilogram
+en16931_uom_J54,J54,megabaud
+en16931_uom_J55,J55,watt second
+en16931_uom_J56,J56,bar per bar
+en16931_uom_J57,J57,barrel (UK petroleum)
+en16931_uom_J58,J58,barrel (UK petroleum) per minute
+en16931_uom_J59,J59,barrel (UK petroleum) per day
+en16931_uom_J60,J60,barrel (UK petroleum) per hour
+en16931_uom_J61,J61,barrel (UK petroleum) per second
+en16931_uom_J62,J62,barrel (US petroleum) per hour
+en16931_uom_J63,J63,barrel (US petroleum) per second
+en16931_uom_J64,J64,bushel (UK) per day
+en16931_uom_J65,J65,bushel (UK) per hour
+en16931_uom_J66,J66,bushel (UK) per minute
+en16931_uom_J67,J67,bushel (UK) per second
+en16931_uom_J68,J68,bushel (US dry) per day
+en16931_uom_J69,J69,bushel (US dry) per hour
+en16931_uom_J70,J70,bushel (US dry) per minute
+en16931_uom_J71,J71,bushel (US dry) per second
+en16931_uom_J72,J72,centinewton metre
+en16931_uom_J73,J73,centipoise per kelvin
+en16931_uom_J74,J74,centipoise per bar
+en16931_uom_J75,J75,calorie (mean)
+en16931_uom_J76,J76,calorie (international table) per gram degree Celsius
+en16931_uom_J78,J78,calorie (thermochemical) per centimetre second degree Celsius
+en16931_uom_J79,J79,calorie (thermochemical) per gram degree Celsius
+en16931_uom_J81,J81,calorie (thermochemical) per minute
+en16931_uom_J82,J82,calorie (thermochemical) per second
+en16931_uom_J83,J83,clo
+en16931_uom_J84,J84,centimetre per second kelvin
+en16931_uom_J85,J85,centimetre per second bar
+en16931_uom_J87,J87,cubic centimetre per cubic metre
+en16931_uom_J90,J90,cubic decimetre per day
+en16931_uom_J91,J91,cubic decimetre per cubic metre
+en16931_uom_J92,J92,cubic decimetre per minute
+en16931_uom_J93,J93,cubic decimetre per second
+en16931_uom_J95,J95,ounce (UK fluid) per day
+en16931_uom_J96,J96,ounce (UK fluid) per hour
+en16931_uom_J97,J97,ounce (UK fluid) per minute
+en16931_uom_J98,J98,ounce (UK fluid) per second
+en16931_uom_J99,J99,ounce (US fluid) per day
+en16931_uom_JE,JE,joule per kelvin
+en16931_uom_JK,JK,megajoule per kilogram
+en16931_uom_JM,JM,megajoule per cubic metre
+en16931_uom_JNT,JNT,pipeline joint
+en16931_uom_JOU,JOU,joule
+en16931_uom_JPS,JPS,hundred metre
+en16931_uom_JWL,JWL,number of jewels
+en16931_uom_K1,K1,kilowatt demand
+en16931_uom_K10,K10,ounce (US fluid) per hour
+en16931_uom_K11,K11,ounce (US fluid) per minute
+en16931_uom_K12,K12,ounce (US fluid) per second
+en16931_uom_K13,K13,foot per degree Fahrenheit
+en16931_uom_K14,K14,foot per hour
+en16931_uom_K15,K15,foot pound-force per hour
+en16931_uom_K16,K16,foot pound-force per minute
+en16931_uom_K17,K17,foot per psi
+en16931_uom_K18,K18,foot per second degree Fahrenheit
+en16931_uom_K19,K19,foot per second psi
+en16931_uom_K2,K2,kilovolt ampere reactive demand
+en16931_uom_K20,K20,reciprocal cubic foot
+en16931_uom_K21,K21,cubic foot per degree Fahrenheit
+en16931_uom_K22,K22,cubic foot per day
+en16931_uom_K23,K23,cubic foot per psi
+en16931_uom_K26,K26,gallon (UK) per day
+en16931_uom_K27,K27,gallon (UK) per hour
+en16931_uom_K28,K28,gallon (UK) per second
+en16931_uom_K3,K3,kilovolt ampere reactive hour
+en16931_uom_K30,K30,gallon (US liquid) per second
+en16931_uom_K31,K31,gram-force per square centimetre
+en16931_uom_K32,K32,gill (UK) per day
+en16931_uom_K33,K33,gill (UK) per hour
+en16931_uom_K34,K34,gill (UK) per minute
+en16931_uom_K35,K35,gill (UK) per second
+en16931_uom_K36,K36,gill (US) per day
+en16931_uom_K37,K37,gill (US) per hour
+en16931_uom_K38,K38,gill (US) per minute
+en16931_uom_K39,K39,gill (US) per second
+en16931_uom_K40,K40,standard acceleration of free fall
+en16931_uom_K41,K41,grain per gallon (US)
+en16931_uom_K42,K42,horsepower (boiler)
+en16931_uom_K43,K43,horsepower (electric)
+en16931_uom_K45,K45,inch per degree Fahrenheit
+en16931_uom_K46,K46,inch per psi
+en16931_uom_K47,K47,inch per second degree Fahrenheit
+en16931_uom_K48,K48,inch per second psi
+en16931_uom_K49,K49,reciprocal cubic inch
+en16931_uom_K50,K50,kilobaud
+en16931_uom_K51,K51,kilocalorie (mean)
+en16931_uom_K52,K52,kilocalorie (international table) per hour metre degree Celsius
+en16931_uom_K53,K53,kilocalorie (thermochemical)
+en16931_uom_K54,K54,kilocalorie (thermochemical) per minute
+en16931_uom_K55,K55,kilocalorie (thermochemical) per second
+en16931_uom_K58,K58,kilomole per hour
+en16931_uom_K59,K59,kilomole per cubic metre kelvin
+en16931_uom_K6,K6,kilolitre
+en16931_uom_K60,K60,kilomole per cubic metre bar
+en16931_uom_K61,K61,kilomole per minute
+en16931_uom_K62,K62,litre per litre
+en16931_uom_K63,K63,reciprocal litre
+en16931_uom_K64,K64,pound (avoirdupois) per degree Fahrenheit
+en16931_uom_K65,K65,pound (avoirdupois) square foot
+en16931_uom_K66,K66,pound (avoirdupois) per day
+en16931_uom_K67,K67,pound per foot hour
+en16931_uom_K68,K68,pound per foot second
+en16931_uom_K69,K69,pound (avoirdupois) per cubic foot degree Fahrenheit
+en16931_uom_K70,K70,pound (avoirdupois) per cubic foot psi
+en16931_uom_K71,K71,pound (avoirdupois) per gallon (UK)
+en16931_uom_K73,K73,pound (avoirdupois) per hour degree Fahrenheit
+en16931_uom_K74,K74,pound (avoirdupois) per hour psi
+en16931_uom_K75,K75,pound (avoirdupois) per cubic inch degree Fahrenheit
+en16931_uom_K76,K76,pound (avoirdupois) per cubic inch psi
+en16931_uom_K77,K77,pound (avoirdupois) per psi
+en16931_uom_K78,K78,pound (avoirdupois) per minute
+en16931_uom_K79,K79,pound (avoirdupois) per minute degree Fahrenheit
+en16931_uom_K80,K80,pound (avoirdupois) per minute psi
+en16931_uom_K81,K81,pound (avoirdupois) per second
+en16931_uom_K82,K82,pound (avoirdupois) per second degree Fahrenheit
+en16931_uom_K83,K83,pound (avoirdupois) per second psi
+en16931_uom_K84,K84,pound per cubic yard
+en16931_uom_K85,K85,pound-force per square foot
+en16931_uom_K86,K86,pound-force per square inch degree Fahrenheit
+en16931_uom_K87,K87,psi cubic inch per second
+en16931_uom_K88,K88,psi litre per second
+en16931_uom_K89,K89,psi cubic metre per second
+en16931_uom_K90,K90,psi cubic yard per second
+en16931_uom_K91,K91,pound-force second per square foot
+en16931_uom_K92,K92,pound-force second per square inch
+en16931_uom_K93,K93,reciprocal psi
+en16931_uom_K94,K94,quart (UK liquid) per day
+en16931_uom_K95,K95,quart (UK liquid) per hour
+en16931_uom_K96,K96,quart (UK liquid) per minute
+en16931_uom_K97,K97,quart (UK liquid) per second
+en16931_uom_K98,K98,quart (US liquid) per day
+en16931_uom_K99,K99,quart (US liquid) per hour
+en16931_uom_KA,KA,cake
+en16931_uom_KAT,KAT,katal
+en16931_uom_KB,KB,kilocharacter
+en16931_uom_KBA,KBA,kilobar
+en16931_uom_KCC,KCC,kilogram of choline chloride
+en16931_uom_KDW,KDW,kilogram drained net weight
+en16931_uom_KEL,KEL,kelvin
+en16931_uom_KGM,KGM,kilogram
+en16931_uom_KGS,KGS,kilogram per second
+en16931_uom_KHY,KHY,kilogram of hydrogen peroxide
+en16931_uom_KHZ,KHZ,kilohertz
+en16931_uom_KI,KI,kilogram per millimetre width
+en16931_uom_KIC,KIC,"kilogram, including container"
+en16931_uom_KIP,KIP,"kilogram, including inner packaging"
+en16931_uom_KJ,KJ,kilosegment
+en16931_uom_KJO,KJO,kilojoule
+en16931_uom_KL,KL,kilogram per metre
+en16931_uom_KLK,KLK,lactic dry material percentage
+en16931_uom_KLX,KLX,kilolux
+en16931_uom_KMA,KMA,kilogram of methylamine
+en16931_uom_KMH,KMH,kilometre per hour
+en16931_uom_KMK,KMK,square kilometre
+en16931_uom_KMQ,KMQ,kilogram per cubic metre
+en16931_uom_KMT,KMT,kilometre
+en16931_uom_KNI,KNI,kilogram of nitrogen
+en16931_uom_KNM,KNM,kilonewton per square metre
+en16931_uom_KNS,KNS,kilogram named substance
+en16931_uom_KNT,KNT,knot
+en16931_uom_KO,KO,milliequivalence caustic potash per gram of product
+en16931_uom_KPA,KPA,kilopascal
+en16931_uom_KPH,KPH,kilogram of potassium hydroxide (caustic potash)
+en16931_uom_KPO,KPO,kilogram of potassium oxide
+en16931_uom_KPP,KPP,kilogram of phosphorus pentoxide (phosphoric anhydride)
+en16931_uom_KR,KR,kiloroentgen
+en16931_uom_KSD,KSD,kilogram of substance 90 % dry
+en16931_uom_KSH,KSH,kilogram of sodium hydroxide (caustic soda)
+en16931_uom_KT,KT,kit
+en16931_uom_KTN,KTN,kilotonne
+en16931_uom_KUR,KUR,kilogram of uranium
+en16931_uom_KVA,KVA,kilovolt - ampere
+en16931_uom_KVR,KVR,kilovar
+en16931_uom_KVT,KVT,kilovolt
+en16931_uom_KW,KW,kilogram per millimetre
+en16931_uom_KWH,KWH,kilowatt hour
+en16931_uom_KWN,KWN,Kilowatt hour per normalized cubic metre
+en16931_uom_KWO,KWO,kilogram of tungsten trioxide
+en16931_uom_KWS,KWS,Kilowatt hour per standard cubic metre
+en16931_uom_KWT,KWT,kilowatt
+en16931_uom_KWY,KWY,kilowatt year
+en16931_uom_KX,KX,millilitre per kilogram
+en16931_uom_L10,L10,quart (US liquid) per minute
+en16931_uom_L11,L11,quart (US liquid) per second
+en16931_uom_L12,L12,metre per second kelvin
+en16931_uom_L13,L13,metre per second bar
+en16931_uom_L14,L14,square metre hour degree Celsius per kilocalorie (international table)
+en16931_uom_L15,L15,millipascal second per kelvin
+en16931_uom_L16,L16,millipascal second per bar
+en16931_uom_L17,L17,milligram per cubic metre kelvin
+en16931_uom_L18,L18,milligram per cubic metre bar
+en16931_uom_L19,L19,millilitre per litre
+en16931_uom_L2,L2,litre per minute
+en16931_uom_L20,L20,reciprocal cubic millimetre
+en16931_uom_L21,L21,cubic millimetre per cubic metre
+en16931_uom_L23,L23,mole per hour
+en16931_uom_L24,L24,mole per kilogram kelvin
+en16931_uom_L25,L25,mole per kilogram bar
+en16931_uom_L26,L26,mole per litre kelvin
+en16931_uom_L27,L27,mole per litre bar
+en16931_uom_L28,L28,mole per cubic metre kelvin
+en16931_uom_L29,L29,mole per cubic metre bar
+en16931_uom_L30,L30,mole per minute
+en16931_uom_L31,L31,milliroentgen aequivalent men
+en16931_uom_L32,L32,nanogram per kilogram
+en16931_uom_L33,L33,ounce (avoirdupois) per day
+en16931_uom_L34,L34,ounce (avoirdupois) per hour
+en16931_uom_L35,L35,ounce (avoirdupois) per minute
+en16931_uom_L36,L36,ounce (avoirdupois) per second
+en16931_uom_L37,L37,ounce (avoirdupois) per gallon (UK)
+en16931_uom_L38,L38,ounce (avoirdupois) per gallon (US)
+en16931_uom_L39,L39,ounce (avoirdupois) per cubic inch
+en16931_uom_L40,L40,ounce (avoirdupois)-force
+en16931_uom_L41,L41,ounce (avoirdupois)-force inch
+en16931_uom_L42,L42,picosiemens per metre
+en16931_uom_L43,L43,peck (UK)
+en16931_uom_L44,L44,peck (UK) per day
+en16931_uom_L45,L45,peck (UK) per hour
+en16931_uom_L46,L46,peck (UK) per minute
+en16931_uom_L47,L47,peck (UK) per second
+en16931_uom_L48,L48,peck (US dry) per day
+en16931_uom_L49,L49,peck (US dry) per hour
+en16931_uom_L50,L50,peck (US dry) per minute
+en16931_uom_L51,L51,peck (US dry) per second
+en16931_uom_L52,L52,psi per psi
+en16931_uom_L53,L53,pint (UK) per day
+en16931_uom_L54,L54,pint (UK) per hour
+en16931_uom_L55,L55,pint (UK) per minute
+en16931_uom_L56,L56,pint (UK) per second
+en16931_uom_L57,L57,pint (US liquid) per day
+en16931_uom_L58,L58,pint (US liquid) per hour
+en16931_uom_L59,L59,pint (US liquid) per minute
+en16931_uom_L60,L60,pint (US liquid) per second
+en16931_uom_L63,L63,slug per day
+en16931_uom_L64,L64,slug per foot second
+en16931_uom_L65,L65,slug per cubic foot
+en16931_uom_L66,L66,slug per hour
+en16931_uom_L67,L67,slug per minute
+en16931_uom_L68,L68,slug per second
+en16931_uom_L69,L69,tonne per kelvin
+en16931_uom_L70,L70,tonne per bar
+en16931_uom_L71,L71,tonne per day
+en16931_uom_L72,L72,tonne per day kelvin
+en16931_uom_L73,L73,tonne per day bar
+en16931_uom_L74,L74,tonne per hour kelvin
+en16931_uom_L75,L75,tonne per hour bar
+en16931_uom_L76,L76,tonne per cubic metre kelvin
+en16931_uom_L77,L77,tonne per cubic metre bar
+en16931_uom_L78,L78,tonne per minute
+en16931_uom_L79,L79,tonne per minute kelvin
+en16931_uom_L80,L80,tonne per minute bar
+en16931_uom_L81,L81,tonne per second
+en16931_uom_L82,L82,tonne per second kelvin
+en16931_uom_L83,L83,tonne per second bar
+en16931_uom_L84,L84,ton (UK shipping)
+en16931_uom_L85,L85,ton long per day
+en16931_uom_L86,L86,ton (US shipping)
+en16931_uom_L87,L87,ton short per degree Fahrenheit
+en16931_uom_L88,L88,ton short per day
+en16931_uom_L89,L89,ton short per hour degree Fahrenheit
+en16931_uom_L90,L90,ton short per hour psi
+en16931_uom_L91,L91,ton short per psi
+en16931_uom_L92,L92,ton (UK long) per cubic yard
+en16931_uom_L93,L93,ton (US short) per cubic yard
+en16931_uom_L94,L94,ton-force (US short)
+en16931_uom_L95,L95,common year
+en16931_uom_L96,L96,sidereal year
+en16931_uom_L98,L98,yard per degree Fahrenheit
+en16931_uom_L99,L99,yard per psi
+en16931_uom_LA,LA,pound per cubic inch
+en16931_uom_LAC,LAC,lactose excess percentage
+en16931_uom_LBR,LBR,pound
+en16931_uom_LBT,LBT,troy pound (US)
+en16931_uom_LD,LD,litre per day
+en16931_uom_LEF,LEF,leaf
+en16931_uom_LF,LF,linear foot
+en16931_uom_LH,LH,labour hour
+en16931_uom_LK,LK,link
+en16931_uom_LM,LM,linear metre
+en16931_uom_LN,LN,length
+en16931_uom_LO,LO,lot  [unit of procurement]
+en16931_uom_LP,LP,liquid pound
+en16931_uom_LPA,LPA,litre of pure alcohol
+en16931_uom_LR,LR,layer
+en16931_uom_LS,LS,lump sum
+en16931_uom_LTN,LTN,ton (UK) or long ton (US)
+en16931_uom_LTR,LTR,litre
+en16931_uom_LUB,LUB,"metric ton, lubricating oil"
+en16931_uom_LUM,LUM,lumen
+en16931_uom_LUX,LUX,lux
+en16931_uom_LY,LY,linear yard
+en16931_uom_M1,M1,milligram per litre
+en16931_uom_M10,M10,reciprocal cubic yard
+en16931_uom_M11,M11,cubic yard per degree Fahrenheit
+en16931_uom_M12,M12,cubic yard per day
+en16931_uom_M13,M13,cubic yard per hour
+en16931_uom_M14,M14,cubic yard per psi
+en16931_uom_M15,M15,cubic yard per minute
+en16931_uom_M16,M16,cubic yard per second
+en16931_uom_M17,M17,kilohertz metre
+en16931_uom_M18,M18,gigahertz metre
+en16931_uom_M19,M19,Beaufort
+en16931_uom_M20,M20,reciprocal megakelvin or megakelvin to the power minus one
+en16931_uom_M21,M21,reciprocal kilovolt - ampere reciprocal hour
+en16931_uom_M22,M22,millilitre per square centimetre minute
+en16931_uom_M23,M23,newton per centimetre
+en16931_uom_M24,M24,ohm kilometre
+en16931_uom_M25,M25,percent per degree Celsius
+en16931_uom_M26,M26,gigaohm per metre
+en16931_uom_M27,M27,megahertz metre
+en16931_uom_M29,M29,kilogram per kilogram
+en16931_uom_M30,M30,reciprocal volt - ampere reciprocal second
+en16931_uom_M31,M31,kilogram per kilometre
+en16931_uom_M32,M32,pascal second per litre
+en16931_uom_M33,M33,millimole per litre
+en16931_uom_M34,M34,newton metre per square metre
+en16931_uom_M35,M35,millivolt - ampere
+en16931_uom_M36,M36,30-day month
+en16931_uom_M37,M37,actual/360
+en16931_uom_M38,M38,kilometre per second squared
+en16931_uom_M39,M39,centimetre per second squared
+en16931_uom_M4,M4,monetary value
+en16931_uom_M40,M40,yard per second squared
+en16931_uom_M41,M41,millimetre per second squared
+en16931_uom_M42,M42,mile (statute mile) per second squared
+en16931_uom_M43,M43,mil
+en16931_uom_M44,M44,revolution
+en16931_uom_M45,M45,degree [unit of angle] per second squared
+en16931_uom_M46,M46,revolution per minute 
+en16931_uom_M47,M47,circular mil 
+en16931_uom_M48,M48,square mile (based on U.S. survey foot) 
+en16931_uom_M49,M49,chain (based on U.S. survey foot)
+en16931_uom_M5,M5,microcurie
+en16931_uom_M50,M50,furlong
+en16931_uom_M51,M51,foot (U.S. survey) 
+en16931_uom_M52,M52,mile (based on U.S. survey foot) 
+en16931_uom_M53,M53,metre per pascal
+en16931_uom_M55,M55,metre per radiant
+en16931_uom_M56,M56,shake
+en16931_uom_M57,M57,mile per minute 
+en16931_uom_M58,M58,mile per second 
+en16931_uom_M59,M59,metre per second pascal
+en16931_uom_M60,M60,metre per hour
+en16931_uom_M61,M61,inch per year
+en16931_uom_M62,M62,kilometre per second 
+en16931_uom_M63,M63,inch per minute
+en16931_uom_M64,M64,yard per second
+en16931_uom_M65,M65,yard per minute
+en16931_uom_M66,M66,yard per hour
+en16931_uom_M67,M67,acre-foot (based on U.S. survey foot)
+en16931_uom_M68,M68,cord (128 ft3)
+en16931_uom_M69,M69,cubic mile (UK statute)
+en16931_uom_M7,M7,micro-inch
+en16931_uom_M70,M70,"ton, register "
+en16931_uom_M71,M71,cubic metre per pascal
+en16931_uom_M72,M72,bel
+en16931_uom_M73,M73,kilogram per cubic metre pascal
+en16931_uom_M74,M74,kilogram per pascal
+en16931_uom_M75,M75,kilopound-force
+en16931_uom_M76,M76,poundal
+en16931_uom_M77,M77,kilogram metre per second squared
+en16931_uom_M78,M78,pond
+en16931_uom_M79,M79,square foot per hour 
+en16931_uom_M80,M80,stokes per pascal
+en16931_uom_M81,M81,square centimetre per second
+en16931_uom_M82,M82,square metre per second pascal
+en16931_uom_M83,M83,denier 
+en16931_uom_M84,M84,pound per yard 
+en16931_uom_M85,M85,"ton, assay"
+en16931_uom_M86,M86,pfund
+en16931_uom_M87,M87,kilogram per second pascal
+en16931_uom_M88,M88,tonne per month
+en16931_uom_M89,M89,tonne per year
+en16931_uom_M9,M9,million Btu per 1000 cubic foot
+en16931_uom_M90,M90,kilopound per hour
+en16931_uom_M91,M91,pound per pound
+en16931_uom_M92,M92,pound-force foot
+en16931_uom_M93,M93,newton metre per radian
+en16931_uom_M94,M94,kilogram metre
+en16931_uom_M95,M95,poundal foot
+en16931_uom_M96,M96,poundal inch
+en16931_uom_M97,M97,dyne metre
+en16931_uom_M98,M98,kilogram centimetre per second
+en16931_uom_M99,M99,gram centimetre per second
+en16931_uom_MAH,MAH,megavolt ampere reactive hour
+en16931_uom_MAL,MAL,megalitre
+en16931_uom_MAM,MAM,megametre
+en16931_uom_MAR,MAR,megavar
+en16931_uom_MAW,MAW,megawatt
+en16931_uom_MBE,MBE,thousand standard brick equivalent
+en16931_uom_MBF,MBF,thousand board foot
+en16931_uom_MBR,MBR,millibar
+en16931_uom_MC,MC,microgram
+en16931_uom_MCU,MCU,millicurie
+en16931_uom_MD,MD,air dry metric ton
+en16931_uom_MGM,MGM,milligram
+en16931_uom_MHZ,MHZ,megahertz
+en16931_uom_MIK,MIK,square mile (statute mile)
+en16931_uom_MIL,MIL,thousand
+en16931_uom_MIN,MIN,minute [unit of time]
+en16931_uom_MIO,MIO,million
+en16931_uom_MIU,MIU,million international unit
+en16931_uom_MKD,MKD,Square Metre Day
+en16931_uom_MKM,MKM,Square Metre Month
+en16931_uom_MKW,MKW,Square Metre Week
+en16931_uom_MLD,MLD,milliard
+en16931_uom_MLT,MLT,millilitre
+en16931_uom_MMK,MMK,square millimetre
+en16931_uom_MMQ,MMQ,cubic millimetre
+en16931_uom_MMT,MMT,millimetre
+en16931_uom_MND,MND,"kilogram, dry weight"
+en16931_uom_MNJ,MNJ,Mega Joule per Normalised cubic Metre
+en16931_uom_MON,MON,month
+en16931_uom_MPA,MPA,megapascal
+en16931_uom_MQD,MQD,Cubic Metre Day
+en16931_uom_MQH,MQH,cubic metre per hour
+en16931_uom_MQM,MQM,Cubic Metre Month
+en16931_uom_MQS,MQS,cubic metre per second
+en16931_uom_MQW,MQW,Cubic Metre Week
+en16931_uom_MRD,MRD,Metre Day
+en16931_uom_MRM,MRM,Metre Month
+en16931_uom_MRW,MRW,Metre Week
+en16931_uom_MSK,MSK,metre per second squared
+en16931_uom_MTK,MTK,square metre
+en16931_uom_MTQ,MTQ,cubic metre
+en16931_uom_MTR,MTR,metre
+en16931_uom_MTS,MTS,metre per second
+en16931_uom_MTZ,MTZ,milihertz
+en16931_uom_MVA,MVA,megavolt - ampere
+en16931_uom_MWH,MWH,megawatt hour (1000 kW.h)
+en16931_uom_N1,N1,pen calorie
+en16931_uom_N10,N10,pound foot per second
+en16931_uom_N11,N11,pound inch per second
+en16931_uom_N12,N12,Pferdestaerke
+en16931_uom_N13,N13,centimetre of mercury (0 ºC)
+en16931_uom_N14,N14,centimetre of water (4 ºC)
+en16931_uom_N15,N15,foot of water (39.2 ºF)
+en16931_uom_N16,N16,inch of mercury (32 ºF)
+en16931_uom_N17,N17,inch of mercury (60 ºF)
+en16931_uom_N18,N18,inch of water (39.2 ºF)
+en16931_uom_N19,N19,inch of water (60 ºF)
+en16931_uom_N20,N20,kip per square inch
+en16931_uom_N21,N21,poundal per square foot 
+en16931_uom_N22,N22,ounce (avoirdupois) per square inch 
+en16931_uom_N23,N23,conventional metre of water
+en16931_uom_N24,N24,gram per square millimetre
+en16931_uom_N25,N25,pound per square yard
+en16931_uom_N26,N26,poundal per square inch
+en16931_uom_N27,N27,foot to the fourth power 
+en16931_uom_N28,N28,cubic decimetre per kilogram
+en16931_uom_N29,N29,cubic foot per pound
+en16931_uom_N3,N3,print point
+en16931_uom_N30,N30,cubic inch per pound
+en16931_uom_N31,N31,kilonewton per metre
+en16931_uom_N32,N32,poundal per inch
+en16931_uom_N33,N33,pound-force per yard
+en16931_uom_N34,N34,poundal second per square foot 
+en16931_uom_N35,N35,poise per pascal
+en16931_uom_N36,N36,newton second per square metre
+en16931_uom_N37,N37,kilogram per metre second
+en16931_uom_N38,N38,kilogram per metre minute
+en16931_uom_N39,N39,kilogram per metre day
+en16931_uom_N40,N40,kilogram per metre hour
+en16931_uom_N41,N41,gram per centimetre second
+en16931_uom_N42,N42,poundal second per square inch
+en16931_uom_N43,N43,pound per foot minute
+en16931_uom_N44,N44,pound per foot day
+en16931_uom_N45,N45,cubic metre per second pascal
+en16931_uom_N46,N46,foot poundal
+en16931_uom_N47,N47,inch poundal
+en16931_uom_N48,N48,watt per square centimetre 
+en16931_uom_N49,N49,watt per square inch 
+en16931_uom_N50,N50,British thermal unit (international table) per square foot hour
+en16931_uom_N51,N51,British thermal unit (thermochemical) per square foot hour
+en16931_uom_N52,N52,British thermal unit (thermochemical) per square foot minute
+en16931_uom_N53,N53,British thermal unit (international table) per square foot second
+en16931_uom_N54,N54,British thermal unit (thermochemical) per square foot second
+en16931_uom_N55,N55,British thermal unit (international table) per square inch second
+en16931_uom_N56,N56,calorie (thermochemical) per square centimetre minute
+en16931_uom_N57,N57,calorie (thermochemical) per square centimetre second
+en16931_uom_N58,N58,British thermal unit (international table) per cubic foot 
+en16931_uom_N59,N59,British thermal unit (thermochemical) per cubic foot
+en16931_uom_N60,N60,British thermal unit (international table) per degree Fahrenheit
+en16931_uom_N61,N61,British thermal unit (thermochemical) per degree Fahrenheit
+en16931_uom_N62,N62,British thermal unit (international table) per degree Rankine
+en16931_uom_N63,N63,British thermal unit (thermochemical) per degree Rankine
+en16931_uom_N64,N64,British thermal unit (thermochemical) per pound degree Rankine
+en16931_uom_N65,N65,kilocalorie (international table) per gram kelvin
+en16931_uom_N66,N66,British thermal unit (39 ºF) 
+en16931_uom_N67,N67,British thermal unit (59 ºF)
+en16931_uom_N68,N68,British thermal unit (60 ºF) 
+en16931_uom_N69,N69,calorie (20 ºC) 
+en16931_uom_N70,N70,quad (1015 BtuIT)
+en16931_uom_N71,N71,therm (EC)
+en16931_uom_N72,N72,therm (U.S.)
+en16931_uom_N73,N73,British thermal unit (thermochemical) per pound
+en16931_uom_N74,N74,British thermal unit (international table) per hour square foot degree Fahrenheit
+en16931_uom_N75,N75,British thermal unit (thermochemical) per hour square foot degree Fahrenheit
+en16931_uom_N76,N76,British thermal unit (international table) per second square foot degree Fahrenheit
+en16931_uom_N77,N77,British thermal unit (thermochemical) per second square foot degree Fahrenheit
+en16931_uom_N78,N78,kilowatt per square metre kelvin
+en16931_uom_N79,N79,kelvin per pascal
+en16931_uom_N80,N80,watt per metre degree Celsius
+en16931_uom_N81,N81,kilowatt per metre kelvin
+en16931_uom_N82,N82,kilowatt per metre degree Celsius
+en16931_uom_N83,N83,metre per degree Celcius metre
+en16931_uom_N84,N84,degree Fahrenheit hour per British thermal unit (international table)
+en16931_uom_N85,N85,degree Fahrenheit hour per British thermal unit (thermochemical)
+en16931_uom_N86,N86,degree Fahrenheit second per British thermal unit (international table)
+en16931_uom_N87,N87,degree Fahrenheit second per British thermal unit (thermochemical)
+en16931_uom_N88,N88,degree Fahrenheit hour square foot per British thermal unit (international table) inch
+en16931_uom_N89,N89,degree Fahrenheit hour square foot per British thermal unit (thermochemical) inch
+en16931_uom_N90,N90,kilofarad
+en16931_uom_N91,N91,reciprocal joule
+en16931_uom_N92,N92,picosiemens
+en16931_uom_N93,N93,ampere per pascal
+en16931_uom_N94,N94,franklin
+en16931_uom_N95,N95,ampere minute
+en16931_uom_N96,N96,biot
+en16931_uom_N97,N97,gilbert
+en16931_uom_N98,N98,volt per pascal
+en16931_uom_N99,N99,picovolt
+en16931_uom_NA,NA,milligram per kilogram
+en16931_uom_NAR,NAR,number of articles
+en16931_uom_NCL,NCL,number of cells
+en16931_uom_NEW,NEW,newton
+en16931_uom_NF,NF,message
+en16931_uom_NIL,NIL,nil
+en16931_uom_NIU,NIU,number of international units
+en16931_uom_NL,NL,load
+en16931_uom_NM3,NM3,Normalised cubic metre
+en16931_uom_NMI,NMI,nautical mile
+en16931_uom_NMP,NMP,number of packs
+en16931_uom_NPT,NPT,number of parts
+en16931_uom_NT,NT,net ton
+en16931_uom_NTU,NTU,Nephelometric turbidity unit
+en16931_uom_NU,NU,newton metre
+en16931_uom_NX,NX,part per thousand
+en16931_uom_OA,OA,panel
+en16931_uom_ODE,ODE,ozone depletion equivalent
+en16931_uom_ODG,ODG,ODS Grams
+en16931_uom_ODK,ODK,ODS Kilograms
+en16931_uom_ODM,ODM,ODS Milligrams
+en16931_uom_OHM,OHM,ohm
+en16931_uom_ON,ON,ounce per square yard
+en16931_uom_ONZ,ONZ,ounce (avoirdupois)
+en16931_uom_OPM,OPM,oscillations per minute
+en16931_uom_OT,OT,overtime hour
+en16931_uom_OZA,OZA,fluid ounce (US)
+en16931_uom_OZI,OZI,fluid ounce (UK)
+en16931_uom_P1,P1,percent
+en16931_uom_P10,P10,coulomb per metre
+en16931_uom_P11,P11,kiloweber
+en16931_uom_P12,P12,gamma
+en16931_uom_P13,P13,kilotesla
+en16931_uom_P14,P14,joule per second
+en16931_uom_P15,P15,joule per minute
+en16931_uom_P16,P16,joule per hour
+en16931_uom_P17,P17,joule per day
+en16931_uom_P18,P18,kilojoule per second
+en16931_uom_P19,P19,kilojoule per minute
+en16931_uom_P2,P2,pound per foot
+en16931_uom_P20,P20,kilojoule per hour
+en16931_uom_P21,P21,kilojoule per day
+en16931_uom_P22,P22,nanoohm
+en16931_uom_P23,P23,ohm circular-mil per foot 
+en16931_uom_P24,P24,kilohenry
+en16931_uom_P25,P25,lumen per square foot 
+en16931_uom_P26,P26,phot
+en16931_uom_P27,P27,footcandle
+en16931_uom_P28,P28,candela per square inch 
+en16931_uom_P29,P29,footlambert
+en16931_uom_P30,P30,lambert
+en16931_uom_P31,P31,stilb
+en16931_uom_P32,P32,candela per square foot
+en16931_uom_P33,P33,kilocandela
+en16931_uom_P34,P34,millicandela
+en16931_uom_P35,P35,Hefner-Kerze
+en16931_uom_P36,P36,international candle 
+en16931_uom_P37,P37,British thermal unit (international table) per square foot
+en16931_uom_P38,P38,British thermal unit (thermochemical) per square foot
+en16931_uom_P39,P39,calorie (thermochemical) per square centimetre 
+en16931_uom_P40,P40,langley
+en16931_uom_P41,P41,decade (logarithmic)
+en16931_uom_P42,P42,pascal squared second
+en16931_uom_P43,P43,bel per metre
+en16931_uom_P44,P44,pound mole
+en16931_uom_P45,P45,pound mole per second
+en16931_uom_P46,P46,pound mole per minute
+en16931_uom_P47,P47,kilomole per kilogram
+en16931_uom_P48,P48,pound mole per pound
+en16931_uom_P49,P49,newton square metre per ampere
+en16931_uom_P5,P5,five pack
+en16931_uom_P50,P50,weber metre
+en16931_uom_P51,P51,mol per kilogram pascal
+en16931_uom_P52,P52,mol per cubic metre pascal
+en16931_uom_P53,P53,unit pole 
+en16931_uom_P54,P54,milligray per second
+en16931_uom_P55,P55,microgray per second
+en16931_uom_P56,P56,nanogray per second
+en16931_uom_P57,P57,gray per minute
+en16931_uom_P58,P58,milligray per minute
+en16931_uom_P59,P59,microgray per minute
+en16931_uom_P60,P60,nanogray per minute
+en16931_uom_P61,P61,gray per hour
+en16931_uom_P62,P62,milligray per hour
+en16931_uom_P63,P63,microgray per hour
+en16931_uom_P64,P64,nanogray per hour
+en16931_uom_P65,P65,sievert per second
+en16931_uom_P66,P66,millisievert per second
+en16931_uom_P67,P67,microsievert per second
+en16931_uom_P68,P68,nanosievert per second
+en16931_uom_P69,P69,rem per second
+en16931_uom_P70,P70,sievert per hour
+en16931_uom_P71,P71,millisievert per hour
+en16931_uom_P72,P72,microsievert per hour
+en16931_uom_P73,P73,nanosievert per hour
+en16931_uom_P74,P74,sievert per minute
+en16931_uom_P75,P75,millisievert per minute
+en16931_uom_P76,P76,microsievert per minute
+en16931_uom_P77,P77,nanosievert per minute
+en16931_uom_P78,P78,reciprocal square inch
+en16931_uom_P79,P79,pascal square metre per kilogram
+en16931_uom_P80,P80,millipascal per metre
+en16931_uom_P81,P81,kilopascal per metre
+en16931_uom_P82,P82,hectopascal per metre
+en16931_uom_P83,P83,standard atmosphere per metre
+en16931_uom_P84,P84,technical atmosphere per metre
+en16931_uom_P85,P85,torr per metre
+en16931_uom_P86,P86,psi per inch
+en16931_uom_P87,P87,cubic metre per second square metre
+en16931_uom_P88,P88,rhe
+en16931_uom_P89,P89,pound-force foot per inch
+en16931_uom_P90,P90,pound-force inch per inch 
+en16931_uom_P91,P91,perm (0 ºC) 
+en16931_uom_P92,P92,perm (23 ºC) 
+en16931_uom_P93,P93,byte per second
+en16931_uom_P94,P94,kilobyte per second
+en16931_uom_P95,P95,megabyte per second
+en16931_uom_P96,P96,reciprocal volt
+en16931_uom_P97,P97,reciprocal radian
+en16931_uom_P98,P98,pascal to the power sum of stoichiometric numbers
+en16931_uom_P99,P99,mole per cubiv metre to the power sum of stoichiometric numbers
+en16931_uom_PAL,PAL,pascal
+en16931_uom_PD,PD,pad
+en16931_uom_PFL,PFL,proof litre
+en16931_uom_PGL,PGL,proof gallon
+en16931_uom_PI,PI,pitch
+en16931_uom_PLA,PLA,degree Plato
+en16931_uom_PO,PO,pound per inch of length
+en16931_uom_PQ,PQ,page per inch
+en16931_uom_PR,PR,pair
+en16931_uom_PS,PS,pound-force per square inch
+en16931_uom_PTD,PTD,dry pint (US)
+en16931_uom_PTI,PTI,pint (UK)
+en16931_uom_PTL,PTL,liquid pint (US)
+en16931_uom_PTN,PTN,portion
+en16931_uom_Q10,Q10,joule per tesla
+en16931_uom_Q11,Q11,erlang
+en16931_uom_Q12,Q12,octet
+en16931_uom_Q13,Q13,octet per second
+en16931_uom_Q14,Q14,shannon
+en16931_uom_Q15,Q15,hartley
+en16931_uom_Q16,Q16,natural unit of information
+en16931_uom_Q17,Q17,shannon per second
+en16931_uom_Q18,Q18,hartley per second
+en16931_uom_Q19,Q19,natural unit of information per second
+en16931_uom_Q20,Q20,second per kilogramm
+en16931_uom_Q21,Q21,watt square metre
+en16931_uom_Q22,Q22,second per radian cubic metre
+en16931_uom_Q23,Q23,weber to the power minus one
+en16931_uom_Q24,Q24,reciprocal inch
+en16931_uom_Q25,Q25,dioptre
+en16931_uom_Q26,Q26,one per one
+en16931_uom_Q27,Q27,newton metre per metre
+en16931_uom_Q28,Q28,kilogram per square metre pascal second
+en16931_uom_Q29,Q29,microgram per hectogram
+en16931_uom_Q3,Q3,meal
+en16931_uom_Q30,Q30,pH (potential of Hydrogen)
+en16931_uom_Q31,Q31,kilojoule per gram
+en16931_uom_Q32,Q32,femtolitre
+en16931_uom_Q33,Q33,picolitre
+en16931_uom_Q34,Q34,nanolitre
+en16931_uom_Q35,Q35,megawatts per minute
+en16931_uom_Q36,Q36,square metre per cubic metre
+en16931_uom_Q37,Q37,Standard cubic metre per day
+en16931_uom_Q38,Q38,Standard cubic metre per hour
+en16931_uom_Q39,Q39,Normalized cubic metre per day
+en16931_uom_Q40,Q40,Normalized cubic metre per hour
+en16931_uom_Q41,Q41,Joule per normalised cubic metre
+en16931_uom_Q42,Q42,Joule per standard cubic metre
+en16931_uom_QA,QA,page - facsimile
+en16931_uom_QAN,QAN,quarter (of a year)
+en16931_uom_QB,QB,page - hardcopy
+en16931_uom_QR,QR,quire
+en16931_uom_QTD,QTD,dry quart (US)
+en16931_uom_QTI,QTI,quart (UK)
+en16931_uom_QTL,QTL,liquid quart (US)
+en16931_uom_QTR,QTR,quarter (UK)
+en16931_uom_R1,R1,pica
+en16931_uom_R9,R9,thousand cubic metre
+en16931_uom_RH,RH,running or operating hour
+en16931_uom_RM,RM,ream
+en16931_uom_ROM,ROM,room
+en16931_uom_RP,RP,pound per ream
+en16931_uom_RPM,RPM,revolutions per minute
+en16931_uom_RPS,RPS,revolutions per second
+en16931_uom_RT,RT,revenue ton mile
+en16931_uom_S3,S3,square foot per second
+en16931_uom_S4,S4,square metre per second
+en16931_uom_SAN,SAN,half year (6 months)
+en16931_uom_SCO,SCO,score
+en16931_uom_SCR,SCR,scruple
+en16931_uom_SEC,SEC,second [unit of time]
+en16931_uom_SET,SET,set
+en16931_uom_SG,SG,segment
+en16931_uom_SIE,SIE,siemens
+en16931_uom_SM3,SM3,Standard cubic metre
+en16931_uom_SMI,SMI,mile (statute mile)
+en16931_uom_SQ,SQ,square
+en16931_uom_SQR,SQR,"square, roofing"
+en16931_uom_SR,SR,strip
+en16931_uom_STC,STC,stick
+en16931_uom_STI,STI,stone (UK)
+en16931_uom_STK,STK,"stick, cigarette"
+en16931_uom_STL,STL,standard litre
+en16931_uom_STN,STN,ton (US) or short ton (UK/US)
+en16931_uom_STW,STW,straw
+en16931_uom_SW,SW,skein
+en16931_uom_SX,SX,shipment
+en16931_uom_SYR,SYR,syringe
+en16931_uom_T0,T0,telecommunication line in service
+en16931_uom_T3,T3,thousand piece
+en16931_uom_TAH,TAH,kiloampere hour (thousand ampere hour)
+en16931_uom_TAN,TAN,total acid number
+en16931_uom_TI,TI,thousand square inch
+en16931_uom_TIC,TIC,"metric ton, including container"
+en16931_uom_TIP,TIP,"metric ton, including inner packaging"
+en16931_uom_TKM,TKM,tonne kilometre
+en16931_uom_TMS,TMS,"kilogram of imported meat, less offal"
+en16931_uom_TNE,TNE,tonne (metric ton)
+en16931_uom_TP,TP,ten pack
+en16931_uom_TPI,TPI,teeth per inch
+en16931_uom_TPR,TPR,ten pair
+en16931_uom_TQD,TQD,thousand cubic metre per day
+en16931_uom_TRL,TRL,trillion (EUR)
+en16931_uom_TST,TST,ten set
+en16931_uom_TTS,TTS,ten thousand sticks
+en16931_uom_U1,U1,treatment
+en16931_uom_U2,U2,tablet
+en16931_uom_UB,UB,telecommunication line in service average
+en16931_uom_UC,UC,telecommunication port
+en16931_uom_VA,VA,volt - ampere per kilogram
+en16931_uom_VLT,VLT,volt
+en16931_uom_VP,VP,percent volume
+en16931_uom_W2,W2,wet kilo
+en16931_uom_WA,WA,watt per kilogram
+en16931_uom_WB,WB,wet pound
+en16931_uom_WCD,WCD,cord
+en16931_uom_WE,WE,wet ton
+en16931_uom_WEB,WEB,weber
+en16931_uom_WEE,WEE,week
+en16931_uom_WG,WG,wine gallon
+en16931_uom_WHR,WHR,watt hour
+en16931_uom_WM,WM,working month
+en16931_uom_WSD,WSD,standard
+en16931_uom_WTT,WTT,watt
+en16931_uom_X1,X1,Gunter's chain
+en16931_uom_YDK,YDK,square yard
+en16931_uom_YDQ,YDQ,cubic yard
+en16931_uom_YRD,YRD,yard
+en16931_uom_Z11,Z11,hanging container
+en16931_uom_Z9,Z9,nanomole
+en16931_uom_ZP,ZP,page
+en16931_uom_ZZ,ZZ,mutually defined
+en16931_uom_X1A,X1A,"Drum, steel"
+en16931_uom_X1B,X1B,"Drum, aluminium"
+en16931_uom_X1D,X1D,"Drum, plywood"
+en16931_uom_X1F,X1F,"Container, flexible"
+en16931_uom_X1G,X1G,"Drum, fibre"
+en16931_uom_X1W,X1W,"Drum, wooden"
+en16931_uom_X2C,X2C,"Barrel, wooden"
+en16931_uom_X3A,X3A,"Jerrican, steel"
+en16931_uom_X3H,X3H,"Jerrican, plastic"
+en16931_uom_X43,X43,"Bag, super bulk"
+en16931_uom_X44,X44,"Bag, polybag"
+en16931_uom_X4A,X4A,"Box, steel"
+en16931_uom_X4B,X4B,"Box, aluminium"
+en16931_uom_X4C,X4C,"Box, natural wood"
+en16931_uom_X4D,X4D,"Box, plywood"
+en16931_uom_X4F,X4F,"Box, reconstituted wood"
+en16931_uom_X4G,X4G,"Box, fibreboard"
+en16931_uom_X4H,X4H,"Box, plastic"
+en16931_uom_X5H,X5H,"Bag, woven plastic"
+en16931_uom_X5L,X5L,"Bag, textile "
+en16931_uom_X5M,X5M,"Bag, paper "
+en16931_uom_X6H,X6H,"Composite packaging, plastic receptacle"
+en16931_uom_X6P,X6P,"Composite packaging, glass receptacle"
+en16931_uom_X7A,X7A,"Case, car"
+en16931_uom_X7B,X7B,"Case, wooden"
+en16931_uom_X8A,X8A,"Pallet, wooden"
+en16931_uom_X8B,X8B,"Crate, wooden"
+en16931_uom_X8C,X8C,"Bundle, wooden"
+en16931_uom_XAA,XAA,"Intermediate bulk container, rigid plastic"
+en16931_uom_XAB,XAB,"Receptacle, fibre "
+en16931_uom_XAC,XAC,"Receptacle, paper "
+en16931_uom_XAD,XAD,"Receptacle, wooden "
+en16931_uom_XAE,XAE,Aerosol
+en16931_uom_XAF,XAF,"Pallet, modular, collars 80cms * 60cms "
+en16931_uom_XAG,XAG,"Pallet, shrinkwrapped "
+en16931_uom_XAH,XAH,"Pallet, 100cms * 110cms "
+en16931_uom_XAI,XAI,Clamshell
+en16931_uom_XAJ,XAJ,Cone
+en16931_uom_XAL,XAL,Ball
+en16931_uom_XAM,XAM,"Ampoule, non-protected "
+en16931_uom_XAP,XAP,"Ampoule, protected "
+en16931_uom_XAT,XAT,Atomizer 
+en16931_uom_XAV,XAV,Capsule
+en16931_uom_XB4,XB4,Belt
+en16931_uom_XBA,XBA,Barrel 
+en16931_uom_XBB,XBB,Bobbin 
+en16931_uom_XBC,XBC,Bottlecrate / bottlerack 
+en16931_uom_XBD,XBD,Board
+en16931_uom_XBE,XBE,Bundle 
+en16931_uom_XBF,XBF,"Balloon, non-protected "
+en16931_uom_XBG,XBG,Bag
+en16931_uom_XBH,XBH,Bunch
+en16931_uom_XBI,XBI,Bin
+en16931_uom_XBJ,XBJ,Bucket 
+en16931_uom_XBK,XBK,Basket 
+en16931_uom_XBL,XBL,"Bale, compressed "
+en16931_uom_XBM,XBM,Basin
+en16931_uom_XBN,XBN,"Bale, non-compressed "
+en16931_uom_XBO,XBO,"Bottle, non-protected, cylindrical "
+en16931_uom_XBP,XBP,"Balloon, protected "
+en16931_uom_XBQ,XBQ,"Bottle, protected cylindrical"
+en16931_uom_XBR,XBR,Bar
+en16931_uom_XBS,XBS,"Bottle, non-protected, bulbous "
+en16931_uom_XBT,XBT,Bolt 
+en16931_uom_XBU,XBU,Butt 
+en16931_uom_XBV,XBV,"Bottle, protected bulbous"
+en16931_uom_XBW,XBW,"Box, for liquids"
+en16931_uom_XBX,XBX,Box
+en16931_uom_XBY,XBY,"Board, in bundle/bunch/truss "
+en16931_uom_XBZ,XBZ,"Bars, in bundle/bunch/truss"
+en16931_uom_XCA,XCA,"Can, rectangular "
+en16931_uom_XCB,XCB,"Crate, beer"
+en16931_uom_XCC,XCC,Churn
+en16931_uom_XCD,XCD,"Can, with handle and spout "
+en16931_uom_XCE,XCE,Creel
+en16931_uom_XCF,XCF,Coffer 
+en16931_uom_XCG,XCG,Cage 
+en16931_uom_XCH,XCH,Chest
+en16931_uom_XCI,XCI,Canister 
+en16931_uom_XCJ,XCJ,Coffin 
+en16931_uom_XCK,XCK,Cask 
+en16931_uom_XCL,XCL,Coil 
+en16931_uom_XCM,XCM,Card
+en16931_uom_XCN,XCN,"Container, not otherwise specified as transport equipment"
+en16931_uom_XCO,XCO,"Carboy, non-protected"
+en16931_uom_XCP,XCP,"Carboy, protected"
+en16931_uom_XCQ,XCQ,Cartridge
+en16931_uom_XCR,XCR,Crate
+en16931_uom_XCS,XCS,Case 
+en16931_uom_XCT,XCT,Carton 
+en16931_uom_XCU,XCU,Cup
+en16931_uom_XCV,XCV,Cover
+en16931_uom_XCW,XCW,"Cage, roll "
+en16931_uom_XCX,XCX,"Can, cylindrical "
+en16931_uom_XCY,XCY,Cylinder 
+en16931_uom_XCZ,XCZ,Canvas 
+en16931_uom_XDA,XDA,"Crate, multiple layer, plastic "
+en16931_uom_XDB,XDB,"Crate, multiple layer, wooden"
+en16931_uom_XDC,XDC,"Crate, multiple layer, cardboard "
+en16931_uom_XDG,XDG,"Cage, Commonwealth Handling Equipment Pool  (CHEP)"
+en16931_uom_XDH,XDH,"Box, Commonwealth Handling Equipment Pool (CHEP), Eurobox"
+en16931_uom_XDI,XDI,"Drum, iron "
+en16931_uom_XDJ,XDJ,"Demijohn, non-protected"
+en16931_uom_XDK,XDK,"Crate, bulk, cardboard "
+en16931_uom_XDL,XDL,"Crate, bulk, plastic "
+en16931_uom_XDM,XDM,"Crate, bulk, wooden"
+en16931_uom_XDN,XDN,Dispenser
+en16931_uom_XDP,XDP,"Demijohn, protected"
+en16931_uom_XDR,XDR,Drum 
+en16931_uom_XDS,XDS,"Tray, one layer no cover, plastic"
+en16931_uom_XDT,XDT,"Tray, one layer no cover, wooden "
+en16931_uom_XDU,XDU,"Tray, one layer no cover, polystyrene"
+en16931_uom_XDV,XDV,"Tray, one layer no cover, cardboard"
+en16931_uom_XDW,XDW,"Tray, two layers no cover, plastic tray"
+en16931_uom_XDX,XDX,"Tray, two layers no cover, wooden"
+en16931_uom_XDY,XDY,"Tray, two layers no cover, cardboard "
+en16931_uom_XEC,XEC,"Bag, plastic "
+en16931_uom_XED,XED,"Case, with pallet base "
+en16931_uom_XEE,XEE,"Case, with pallet base, wooden "
+en16931_uom_XEF,XEF,"Case, with pallet base, cardboard"
+en16931_uom_XEG,XEG,"Case, with pallet base, plastic"
+en16931_uom_XEH,XEH,"Case, with pallet base, metal"
+en16931_uom_XEI,XEI,"Case, isothermic "
+en16931_uom_XEN,XEN,Envelope 
+en16931_uom_XFB,XFB,Flexibag
+en16931_uom_XFC,XFC,"Crate, fruit "
+en16931_uom_XFD,XFD,"Crate, framed"
+en16931_uom_XFE,XFE,Flexitank
+en16931_uom_XFI,XFI,Firkin 
+en16931_uom_XFL,XFL,Flask
+en16931_uom_XFO,XFO,Footlocker 
+en16931_uom_XFP,XFP,Filmpack 
+en16931_uom_XFR,XFR,Frame
+en16931_uom_XFT,XFT,Foodtainer
+en16931_uom_XFW,XFW,"Cart, flatbed"
+en16931_uom_XFX,XFX,"Bag, flexible container"
+en16931_uom_XGB,XGB,"Bottle, gas"
+en16931_uom_XGI,XGI,Girder 
+en16931_uom_XGL,XGL,"Container, gallon"
+en16931_uom_XGR,XGR,"Receptacle, glass "
+en16931_uom_XGU,XGU,"Tray, containing horizontally stacked flat items"
+en16931_uom_XGY,XGY,"Bag, gunny"
+en16931_uom_XGZ,XGZ,"Girders, in bundle/bunch/truss "
+en16931_uom_XHA,XHA,"Basket, with handle, plastic "
+en16931_uom_XHB,XHB,"Basket, with handle, wooden"
+en16931_uom_XHC,XHC,"Basket, with handle, cardboard "
+en16931_uom_XHG,XHG,Hogshead 
+en16931_uom_XHN,XHN,Hanger
+en16931_uom_XHR,XHR,Hamper 
+en16931_uom_XIA,XIA,"Package, display, wooden "
+en16931_uom_XIB,XIB,"Package, display, cardboard"
+en16931_uom_XIC,XIC,"Package, display, plastic"
+en16931_uom_XID,XID,"Package, display, metal"
+en16931_uom_XIE,XIE,"Package, show"
+en16931_uom_XIF,XIF,"Package, flow "
+en16931_uom_XIG,XIG,"Package, paper wrapped"
+en16931_uom_XIH,XIH,"Drum, plastic"
+en16931_uom_XIK,XIK,"Package, cardboard, with bottle grip-holes "
+en16931_uom_XIL,XIL,"Tray, rigid, lidded stackable (CEN TS 14482:2002)"
+en16931_uom_XIN,XIN,Ingot
+en16931_uom_XIZ,XIZ,"Ingots, in bundle/bunch/truss"
+en16931_uom_XJB,XJB,"Bag, jumbo"
+en16931_uom_XJC,XJC,"Jerrican, rectangular"
+en16931_uom_XJG,XJG,Jug
+en16931_uom_XJR,XJR,Jar
+en16931_uom_XJT,XJT,Jutebag
+en16931_uom_XJY,XJY,"Jerrican, cylindrical"
+en16931_uom_XKG,XKG,Keg
+en16931_uom_XKI,XKI,Kit
+en16931_uom_XLE,XLE,Luggage
+en16931_uom_XLG,XLG,Log
+en16931_uom_XLT,XLT,Lot
+en16931_uom_XLU,XLU,Lug
+en16931_uom_XLV,XLV,Liftvan
+en16931_uom_XLZ,XLZ,"Logs, in bundle/bunch/truss"
+en16931_uom_XMA,XMA,"Crate, metal"
+en16931_uom_XMB,XMB,"Bag, multiply"
+en16931_uom_XMC,XMC,"Crate, milk"
+en16931_uom_XME,XME,"Container, metal"
+en16931_uom_XMR,XMR,"Receptacle, metal "
+en16931_uom_XMS,XMS,"Sack, multi-wall "
+en16931_uom_XMT,XMT,Mat
+en16931_uom_XMW,XMW,"Receptacle, plastic wrapped "
+en16931_uom_XMX,XMX,Matchbox 
+en16931_uom_XNA,XNA,Not available
+en16931_uom_XNE,XNE,Unpacked or unpackaged 
+en16931_uom_XNF,XNF,"Unpacked or unpackaged, single unit"
+en16931_uom_XNG,XNG,"Unpacked or unpackaged, multiple units"
+en16931_uom_XNS,XNS,Nest 
+en16931_uom_XNT,XNT,Net
+en16931_uom_XNU,XNU,"Net, tube, plastic "
+en16931_uom_XNV,XNV,"Net, tube, textile "
+en16931_uom_XO1,XO1,Two sided cage on wheels with fixing strap
+en16931_uom_XO2,XO2,Trolley
+en16931_uom_XO3,XO3,Oneway pallet ISO 0 - 1/2 EURO Pallet
+en16931_uom_XO4,XO4,Oneway pallet ISO 1 - 1/1 EURO Pallet
+en16931_uom_XO5,XO5,Oneway pallet ISO 2 - 2/1 EURO Pallet
+en16931_uom_XO6,XO6,Pallet with exceptional dimensions
+en16931_uom_XO7,XO7,Wooden pallet  40 cm x 80 cm
+en16931_uom_XO8,XO8,Plastic pallet SRS 60 cm x 80 cm
+en16931_uom_XO9,XO9,Plastic pallet SRS 80 cm x 120 cm
+en16931_uom_XOA,XOA,"Pallet, CHEP 40 cm x 60 cm"
+en16931_uom_XOB,XOB,"Pallet, CHEP 80 cm x 120 cm"
+en16931_uom_XOC,XOC,"Pallet, CHEP 100 cm x 120 cm"
+en16931_uom_XOD,XOD,"Pallet, AS 4068-1993"
+en16931_uom_XOE,XOE,"Pallet, ISO T11"
+en16931_uom_XOF,XOF,"Platform, unspecified weight or dimension"
+en16931_uom_XOG,XOG,Pallet ISO 0 - 1/2 EURO Pallet
+en16931_uom_XOH,XOH,Pallet ISO 1 - 1/1 EURO Pallet
+en16931_uom_XOI,XOI,Pallet ISO 2 – 2/1 EURO Pallet
+en16931_uom_XOJ,XOJ,1/4 EURO Pallet
+en16931_uom_XOK,XOK,Block
+en16931_uom_XOL,XOL,1/8 EURO Pallet
+en16931_uom_XOM,XOM,Synthetic pallet ISO 1
+en16931_uom_XON,XON,Synthetic pallet ISO 2
+en16931_uom_XOP,XOP,Wholesaler pallet
+en16931_uom_XOQ,XOQ,Pallet 80 X 100 cm
+en16931_uom_XOR,XOR,Pallet 60 X 100 cm
+en16931_uom_XOS,XOS,Oneway pallet
+en16931_uom_XOT,XOT,Octabin
+en16931_uom_XOU,XOU,"Container, outer"
+en16931_uom_XOV,XOV,Returnable pallet
+en16931_uom_XOW,XOW,"Large bag, pallet sized"
+en16931_uom_XOX,XOX,A wheeled pallet with raised rim (81 x 67 x 135)
+en16931_uom_XOY,XOY,A Wheeled pallet with raised rim (81 x 72 x 135)
+en16931_uom_XOZ,XOZ,Wheeled pallet with raised rim ( 81 x 60 x 16)
+en16931_uom_XP1,XP1,CHEP pallet 60 cm x 80 cm 
+en16931_uom_XP2,XP2,Pan
+en16931_uom_XP3,XP3,LPR pallet 60 cm x 80 cm
+en16931_uom_XP4,XP4,LPR pallet 80 cm x 120 cm
+en16931_uom_XPA,XPA,Packet 
+en16931_uom_XPB,XPB,"Pallet, box Combined open-ended box and pallet"
+en16931_uom_XPC,XPC,Parcel 
+en16931_uom_XPD,XPD,"Pallet, modular, collars 80cms * 100cms "
+en16931_uom_XPE,XPE,"Pallet, modular, collars 80cms * 120cms "
+en16931_uom_XPF,XPF,Pen 
+en16931_uom_XPG,XPG,Plate
+en16931_uom_XPH,XPH,Pitcher
+en16931_uom_XPI,XPI,Pipe 
+en16931_uom_XPJ,XPJ,Punnet
+en16931_uom_XPK,XPK,Package
+en16931_uom_XPL,XPL,Pail 
+en16931_uom_XPN,XPN,Plank
+en16931_uom_XPO,XPO,Pouch
+en16931_uom_XPP,XPP,Piece
+en16931_uom_XPR,XPR,"Receptacle, plastic "
+en16931_uom_XPT,XPT,Pot
+en16931_uom_XPU,XPU,Tray 
+en16931_uom_XPV,XPV,"Pipes, in bundle/bunch/truss "
+en16931_uom_XPX,XPX,Pallet 
+en16931_uom_XPY,XPY,"Plates, in bundle/bunch/truss"
+en16931_uom_XPZ,XPZ,"Planks, in bundle/bunch/truss"
+en16931_uom_XQA,XQA,"Drum, steel, non-removable head"
+en16931_uom_XQB,XQB,"Drum, steel, removable head"
+en16931_uom_XQC,XQC,"Drum, aluminium, non-removable head"
+en16931_uom_XQD,XQD,"Drum, aluminium, removable head"
+en16931_uom_XQF,XQF,"Drum, plastic, non-removable head"
+en16931_uom_XQG,XQG,"Drum, plastic, removable head"
+en16931_uom_XQH,XQH,"Barrel, wooden, bung type"
+en16931_uom_XQJ,XQJ,"Barrel, wooden, removable head "
+en16931_uom_XQK,XQK,"Jerrican, steel, non-removable head"
+en16931_uom_XQL,XQL,"Jerrican, steel, removable head"
+en16931_uom_XQM,XQM,"Jerrican, plastic, non-removable head"
+en16931_uom_XQN,XQN,"Jerrican, plastic, removable head"
+en16931_uom_XQP,XQP,"Box, wooden, natural wood, ordinary"
+en16931_uom_XQQ,XQQ,"Box, wooden, natural wood, with sift proof walls"
+en16931_uom_XQR,XQR,"Box, plastic, expanded "
+en16931_uom_XQS,XQS,"Box, plastic, solid"
+en16931_uom_XRD,XRD,Rod
+en16931_uom_XRG,XRG,Ring 
+en16931_uom_XRJ,XRJ,"Rack, clothing hanger"
+en16931_uom_XRK,XRK,Rack 
+en16931_uom_XRL,XRL,Reel 
+en16931_uom_XRO,XRO,Roll 
+en16931_uom_XRT,XRT,Rednet 
+en16931_uom_XRZ,XRZ,"Rods, in bundle/bunch/truss"
+en16931_uom_XSA,XSA,Sack 
+en16931_uom_XSB,XSB,Slab
+en16931_uom_XSC,XSC,"Crate, shallow "
+en16931_uom_XSD,XSD,Spindle
+en16931_uom_XSE,XSE,Sea-chest
+en16931_uom_XSH,XSH,Sachet 
+en16931_uom_XSI,XSI,Skid 
+en16931_uom_XSK,XSK,"Case, skeleton "
+en16931_uom_XSL,XSL,Slipsheet 
+en16931_uom_XSM,XSM,Sheetmetal 
+en16931_uom_XSO,XSO,Spool 
+en16931_uom_XSP,XSP,"Sheet, plastic wrapping"
+en16931_uom_XSS,XSS,"Case, steel"
+en16931_uom_XST,XST,Sheet
+en16931_uom_XSU,XSU,Suitcase 
+en16931_uom_XSV,XSV,"Envelope, steel"
+en16931_uom_XSW,XSW,Shrinkwrapped  
+en16931_uom_XSX,XSX,Set
+en16931_uom_XSY,XSY,Sleeve
+en16931_uom_XSZ,XSZ,"Sheets, in bundle/bunch/truss"
+en16931_uom_XT1,XT1,Tablet
+en16931_uom_XTB,XTB,Tub
+en16931_uom_XTC,XTC,Tea-chest
+en16931_uom_XTD,XTD,"Tube, collapsible"
+en16931_uom_XTE,XTE,Tyre
+en16931_uom_XTG,XTG,"Tank container, generic"
+en16931_uom_XTI,XTI,Tierce
+en16931_uom_XTK,XTK,"Tank, rectangular"
+en16931_uom_XTL,XTL,"Tub, with lid"
+en16931_uom_XTN,XTN,Tin
+en16931_uom_XTO,XTO,Tun
+en16931_uom_XTR,XTR,Trunk
+en16931_uom_XTS,XTS,Truss
+en16931_uom_XTT,XTT,"Bag, tote"
+en16931_uom_XTU,XTU,Tube 
+en16931_uom_XTV,XTV,"Tube, with nozzle "
+en16931_uom_XTW,XTW,"Pallet, triwall"
+en16931_uom_XTY,XTY,"Tank, cylindrical"
+en16931_uom_XTZ,XTZ,"Tubes, in bundle/bunch/truss "
+en16931_uom_XUC,XUC,Uncaged 
+en16931_uom_XUN,XUN,Unit
+en16931_uom_XVA,XVA,Vat
+en16931_uom_XVG,XVG,"Bulk, gas (at 1031 mbar and 15°C)"
+en16931_uom_XVI,XVI,Vial 
+en16931_uom_XVK,XVK,Vanpack 
+en16931_uom_XVL,XVL,"Bulk, liquid "
+en16931_uom_XVN,XVN,Vehicle
+en16931_uom_XVO,XVO,"Bulk, solid, large particles (“nodules”) "
+en16931_uom_XVP,XVP,Vacuum-packed
+en16931_uom_XVQ,XVQ,"Bulk, liquefied gas (at abnormal temperature/pressure) "
+en16931_uom_XVR,XVR,"Bulk, solid, granular particles (“grains”) "
+en16931_uom_XVS,XVS,"Bulk, scrap metal"
+en16931_uom_XVY,XVY,"Bulk, solid, fine particles (“powders”)"
+en16931_uom_XWA,XWA,Intermediate bulk container
+en16931_uom_XWB,XWB,Wickerbottle 
+en16931_uom_XWC,XWC,"Intermediate bulk container, steel "
+en16931_uom_XWD,XWD,"Intermediate bulk container, aluminium "
+en16931_uom_XWF,XWF,"Intermediate bulk container, metal "
+en16931_uom_XWG,XWG,"Intermediate bulk container, steel, pressurised > 10 kpa"
+en16931_uom_XWH,XWH,"Intermediate bulk container, aluminium, pressurised > 10 kpa"
+en16931_uom_XWJ,XWJ,"Intermediate bulk container, metal, pressure 10 kpa "
+en16931_uom_XWK,XWK,"Intermediate bulk container, steel, liquid "
+en16931_uom_XWL,XWL,"Intermediate bulk container, aluminium, liquid "
+en16931_uom_XWM,XWM,"Intermediate bulk container, metal, liquid "
+en16931_uom_XWN,XWN,"Intermediate bulk container, woven plastic, without coat/liner "
+en16931_uom_XWP,XWP,"Intermediate bulk container, woven plastic, coated "
+en16931_uom_XWQ,XWQ,"Intermediate bulk container, woven plastic, with liner "
+en16931_uom_XWR,XWR,"Intermediate bulk container, woven plastic, coated and liner "
+en16931_uom_XWS,XWS,"Intermediate bulk container, plastic film"
+en16931_uom_XWT,XWT,"Intermediate bulk container, textile with out coat/liner "
+en16931_uom_XWU,XWU,"Intermediate bulk container, natural wood, with inner liner"
+en16931_uom_XWV,XWV,"Intermediate bulk container, textile, coated "
+en16931_uom_XWW,XWW,"Intermediate bulk container, textile, with liner "
+en16931_uom_XWX,XWX,"Intermediate bulk container, textile, coated and liner "
+en16931_uom_XWY,XWY,"Intermediate bulk container, plywood, with inner liner "
+en16931_uom_XWZ,XWZ,"Intermediate bulk container, reconstituted wood, with inner liner"
+en16931_uom_XXA,XXA,"Bag, woven plastic, without inner coat/liner "
+en16931_uom_XXB,XXB,"Bag, woven plastic, sift proof "
+en16931_uom_XXC,XXC,"Bag, woven plastic, water resistant"
+en16931_uom_XXD,XXD,"Bag, plastics film "
+en16931_uom_XXF,XXF,"Bag, textile, without inner coat/liner "
+en16931_uom_XXG,XXG,"Bag, textile, sift proof "
+en16931_uom_XXH,XXH,"Bag, textile, water resistant"
+en16931_uom_XXJ,XXJ,"Bag, paper, multi-wall "
+en16931_uom_XXK,XXK,"Bag, paper, multi-wall, water resistant"
+en16931_uom_XYA,XYA,"Composite packaging, plastic receptacle in steel drum"
+en16931_uom_XYB,XYB,"Composite packaging, plastic receptacle in steel crate box"
+en16931_uom_XYC,XYC,"Composite packaging, plastic receptacle in aluminium drum"
+en16931_uom_XYD,XYD,"Composite packaging, plastic receptacle in aluminium crate"
+en16931_uom_XYF,XYF,"Composite packaging, plastic receptacle in wooden box"
+en16931_uom_XYG,XYG,"Composite packaging, plastic receptacle in plywood drum"
+en16931_uom_XYH,XYH,"Composite packaging, plastic receptacle in plywood box "
+en16931_uom_XYJ,XYJ,"Composite packaging, plastic receptacle in fibre drum"
+en16931_uom_XYK,XYK,"Composite packaging, plastic receptacle in fibreboard box"
+en16931_uom_XYL,XYL,"Composite packaging, plastic receptacle in plastic drum"
+en16931_uom_XYM,XYM,"Composite packaging, plastic receptacle in solid plastic box"
+en16931_uom_XYN,XYN,"Composite packaging, glass receptacle in steel drum"
+en16931_uom_XYP,XYP,"Composite packaging, glass receptacle in steel crate box"
+en16931_uom_XYQ,XYQ,"Composite packaging, glass receptacle in aluminium drum"
+en16931_uom_XYR,XYR,"Composite packaging, glass receptacle in aluminium crate"
+en16931_uom_XYS,XYS,"Composite packaging, glass receptacle in wooden box"
+en16931_uom_XYT,XYT,"Composite packaging, glass receptacle in plywood drum"
+en16931_uom_XYV,XYV,"Composite packaging, glass receptacle in wickerwork hamper"
+en16931_uom_XYW,XYW,"Composite packaging, glass receptacle in fibre drum"
+en16931_uom_XYX,XYX,"Composite packaging, glass receptacle in fibreboard box "
+en16931_uom_XYY,XYY,"Composite packaging, glass receptacle in expandable plastic pack"
+en16931_uom_XYZ,XYZ,"Composite packaging, glass receptacle in solid plastic pack"
+en16931_uom_XZA,XZA,"Intermediate bulk container, paper, multi-wall "
+en16931_uom_XZB,XZB,"Bag, large "
+en16931_uom_XZC,XZC,"Intermediate bulk container, paper, multi-wall, water resistant"
+en16931_uom_XZD,XZD,"Intermediate bulk container, rigid plastic, with structural equipment, solids"
+en16931_uom_XZF,XZF,"Intermediate bulk container, rigid plastic, freestanding, solids"
+en16931_uom_XZG,XZG,"Intermediate bulk container, rigid plastic, with structural equipment, pressurised"
+en16931_uom_XZH,XZH,"Intermediate bulk container, rigid plastic, freestanding, pressurised"
+en16931_uom_XZJ,XZJ,"Intermediate bulk container, rigid plastic, with structural equipment, liquids "
+en16931_uom_XZK,XZK,"Intermediate bulk container, rigid plastic, freestanding, liquids"
+en16931_uom_XZL,XZL,"Intermediate bulk container, composite, rigid plastic, solids"
+en16931_uom_XZM,XZM,"Intermediate bulk container, composite, flexible plastic, solids"
+en16931_uom_XZN,XZN,"Intermediate bulk container, composite, rigid plastic, pressurised "
+en16931_uom_XZP,XZP,"Intermediate bulk container, composite, flexible plastic, pressurised"
+en16931_uom_XZQ,XZQ,"Intermediate bulk container, composite, rigid plastic, liquids"
+en16931_uom_XZR,XZR,"Intermediate bulk container, composite, flexible plastic, liquids "
+en16931_uom_XZS,XZS,"Intermediate bulk container, composite"
+en16931_uom_XZT,XZT,"Intermediate bulk container, fibreboard"
+en16931_uom_XZU,XZU,"Intermediate bulk container, flexible"
+en16931_uom_XZV,XZV,"Intermediate bulk container, metal, other than steel"
+en16931_uom_XZW,XZW,"Intermediate bulk container, natural wood"
+en16931_uom_XZX,XZX,"Intermediate bulk container, plywood"
+en16931_uom_XZY,XZY,"Intermediate bulk container, reconstituted wood"
+en16931_uom_XZZ,XZZ,Mutually defined 
