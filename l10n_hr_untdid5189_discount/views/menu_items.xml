@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem action="discount_code_action"
+              name="UNTDID5189 Discount types"
+              id="menu_discount_code"
+              parent="l10n_hr_codebook.l10n_hr_fiscal_codebooks"
+              sequence="50"/>
+
+</odoo>

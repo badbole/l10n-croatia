@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="discount_type_list_view" model="ir.ui.view">
+        <field name="name">discount_type_list_view</field>
+        <field name="model">l10n.hr.discount.type</field>
+        <field name="arch" type="xml">
+            <tree string="UNTDID 5189 discount codes">
+                <field name="code"/>
+                <field name="name"/>
+                <field name="display_name" optional="hide"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="discount_code_form_view" model="ir.ui.view">
+        <field name="name">discount_code_form_view</field>
+        <field name="model">l10n.hr.discount.type</field>
+        <field name="arch" type="xml">
+            <form string="UNTDID 5189 discount code">
+                <sheet>
+                    <div class="oe_title">
+                        <h5>
+                           UNTDID 5189
+                        </h5>
+                        <h1>
+                            <field name="display_name" nolabel="1"/>
+                        </h1>
+                    </div>
+                    <group name="data" >
+                        <group name="code">
+                            <field name="code"/>
+                        </group>
+                        <group name="name">
+                            <field name="name"/>
+                        </group>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="discount_code_action" model="ir.actions.act_window">
+        <field name="name">UNTDID 5189 Discount</field>
+        <field name="res_model">l10n.hr.discount.type</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>
