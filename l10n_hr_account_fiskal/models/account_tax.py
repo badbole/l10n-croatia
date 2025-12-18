@@ -17,5 +17,5 @@ class AccountTax(models.Model):
             ("Naknade", "Naknade (npr. ambalaza)"),
         ],
         string="Fiskal tax type",
-        domain="[('type_tax_use', '!=', 'purchase')]",
+        #domain="[('type_tax_use', '!=', 'purchase')]",
     )

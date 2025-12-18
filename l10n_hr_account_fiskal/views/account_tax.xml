@@ -7,7 +7,8 @@
         <field name="inherit_id" ref="account.view_tax_form" />
         <field name="arch" type="xml">
             <field name="country_id" position="after">
-                <field name="l10n_hr_fiskal_type" />
+                <field name="l10n_hr_fiskal_type"
+                       attrs="{'invisible':[('type_tax_use', '!=', 'sale')]}"/>
             </field>
         </field>
     </record>
