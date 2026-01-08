@@ -7,14 +7,18 @@
         <field name="arch" type="xml">
             <notebook position="inside">
                 <page name="Croatia settings">
-                    <group name="l10n_hr_main">
-                        <group string="Legal data" name="l10n_hr_legal">
-                            <field name="l10n_hr_mirovinsko" />
-                            <field name="l10n_hr_zdravstveno" />
-                            <field name="l10n_hr_maticni_broj" />
-                            <field name="l10n_hr_nkd" />
-                        </group>
-                    </group>
+                    <notebook>
+                        <page string="Main data" name="l10n_hr_main_page">
+                            <group name="l10n_hr_main">
+                                <group string="Legal data" name="l10n_hr_legal">
+                                    <field name="l10n_hr_mirovinsko" />
+                                    <field name="l10n_hr_zdravstveno" />
+                                    <field name="l10n_hr_maticni_broj" />
+                                    <field name="l10n_hr_nkd" />
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
                 </page>
             </notebook>
         </field>
