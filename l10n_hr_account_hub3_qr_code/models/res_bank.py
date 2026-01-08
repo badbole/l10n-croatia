@@ -47,8 +47,8 @@ class ResPartnerBank(models.Model):
         if qr_method == 'hr_qr':
             return {
                 'barcode_type': 'QR',
-                'width': 250,
-                'height': 250,
+                'width': 200,
+                'height': 200,
                 'humanreadable': 1,
                 #'barLevel': 'Q',
                 'value': '\n'.join(self._get_qr_vals(qr_method, amount, currency, debtor_partner, free_communication, structured_communication)),
