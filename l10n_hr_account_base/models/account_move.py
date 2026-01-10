@@ -205,14 +205,21 @@ class AccountMove(models.Model):
             if not self.l10n_hr_fiskal_uredjaj_id.prostor_id.lock:
                 self.l10n_hr_fiskal_uredjaj_id.prostor_id.lock = True
 
+    def _l10n_hr_check_is_out_invoice(self):
+        self.ensure_one()
+        return (
+            self.company_id.account_fiscal_country_id.code == "HR" and
+            self.is_invoice(include_receipts=False) and
+            self.move_type in ("out_invoice", "out_refund")
+        )
+
     def _post(self, soft=True):
+        for move in self:
+            if move._l10n_hr_check_is_out_invoice():
+                move._l10n_hr_pre_post_data()
         posted = super()._post(soft=soft)
         for move in posted:
-            if move.company_id.account_fiscal_country_id.code != "HR":
-                continue  # only for croatia
-            if not move.is_invoice(include_receipts=False):
-                continue  # only invoices
-            if move.move_type in ("out_invoice", "out_refund"):
+            if move._l10n_hr_check_is_out_invoice():
                 move._l10n_hr_post_out_invoice()
         return posted
 
