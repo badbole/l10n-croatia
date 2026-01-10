@@ -7,10 +7,10 @@
         <field name="inherit_id" ref="base.view_partner_form" />
         <field name="arch" type="xml">
             <group name="sale" position="inside">
-                <field name="sale_journal_id"/>
+                <field name="l10n_hr_sale_journal_id"/>
             </group>
             <group name="purchase" position="inside">
-                <field name="purchase_journal_id"/>
+                <field name="l10n_hr_purchase_journal_id"/>
             </group>
         </field>
     </record>

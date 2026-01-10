@@ -1,6 +1,8 @@
 from odoo import _, api, fields, models
 from odoo.exceptions import ValidationError
 
+from odoo.odoo.tools.safe_eval import assert_no_dunder_name
+
 
 class AccountMove(models.Model):
     _inherit = "account.move"
@@ -23,6 +25,9 @@ class AccountMove(models.Model):
             "Leave blank for current date",
         )
     )
+    l10n_hr_period_delivery_start = fields.Date()
+    l10n_hr_period_delivery_end = fields.Date()
+
     l10n_hr_vrijeme_izdavanja = fields.Char(
         # DB: namjerno kao char da izbjegnem timezone problem!
         string="Time of invoicing",
@@ -165,7 +170,9 @@ class AccountMove(models.Model):
             res.append(_("PoS device selected is not active"))
         return res
 
-    def _l10n_hr_post_out_invoice(self):
+    def _l10n_hr_pre_post_data(self):
+        # moved populating data before calling super,
+        # so no errors appear later in edi modules
         self.ensure_one()
         l10n_hr_errors = self._l10n_hr_post_check()
         if l10n_hr_errors:
@@ -187,6 +194,10 @@ class AccountMove(models.Model):
             self.invoice_user_id = self.env.user
         if not self.l10n_hr_fiskalni_broj:
             self.l10n_hr_fiskalni_broj = self._gen_fiskal_number()
+
+
+    def _l10n_hr_post_out_invoice(self):
+
         # now and set lock on journals,
         # after first posting journal is locked for changes
         if not self.l10n_hr_fiskal_uredjaj_id.lock:
@@ -209,9 +220,9 @@ class AccountMove(models.Model):
     def _onchange_partner_id(self):
         res = super(AccountMove, self)._onchange_partner_id()
         if self.partner_id and self.is_outbound(include_receipts=True):
-            self.journal_id = self.partner_id.purchase_journal_id
+            self.journal_id = self.partner_id.l10n_hr_purchase_journal_id
         elif self.partner_id and self.is_inbound(include_receipts=True):
-            self.journal_id = self.partner_id.sale_journal_id
+            self.journal_id = self.partner_id.l10n_hr_sale_journal_id
         return res
 
     @api.onchange('journal_id')

@@ -9,18 +9,19 @@
                 <group string="Fiscal data" name="l10n_hr_fiskal">
                     <field name="l10n_hr_tax_model" />
                     <field name="l10n_hr_fiskal_separator" />
+                    <field name="l10n_hr_sale_journal_id"/>
+                    <field name="l10n_hr_purchase_journal_id"/>
                 </group>
             </group>
-            <group name="l10n_hr_main" position="after">
-                <notebook name="croatia_notebook">
-                    <page string="Business premisses">
-                        <field
-                            name="l10n_hr_fiskal_prostor_ids"
-                            colspan="4"
-                            nolabel="1"
-                        />
-                    </page>
-                    <page string="Fiscal invoice sequences">
+            <page name="l10n_hr_main_page" position="after">
+                <page string="Business premisses">
+                    <field
+                        name="l10n_hr_fiskal_prostor_ids"
+                        colspan="4"
+                        nolabel="1"
+                    />
+                </page>
+                <page string="Fiscal invoice sequences">
                         <field
                             name="l10n_hr_fiskal_invoice_sequences"
                             colspan="4"
@@ -49,8 +50,7 @@
                             </tree>
                         </field>
                     </page>
-                </notebook>
-                </group>
+            </page>
         </field>
     </record>
 </odoo>

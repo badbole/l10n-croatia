@@ -36,6 +36,15 @@ class Company(models.Model):
         tracking=True,
         default="r1",  # TODO: multicompany improove!
     )
+    l10n_hr_sale_journal_id = fields.Many2one(
+        comodel_name='account.journal',
+        string='Sale Journal',
+        company_dependent=1,  # required=1,
+        domain=[('type', '=', 'sale')])
+    l10n_hr_purchase_journal_id = fields.Many2one(
+        'account.journal', 'Purchase Journal',
+        company_dependent=1,  # required=1,
+        domain=[('type', '=', 'purchase')])
 
     def _compute_l10n_hr_sequences(self):
         for company in self:
