@@ -182,7 +182,10 @@ class AccountMove(models.Model):
         if not self.l10n_hr_date_document:
             self.l10n_hr_date_document = self.invoice_date or fields.Date.today()
         if not self.l10n_hr_date_delivery:
-            self.l10n_hr_date_delivery = self.invoice_date or fields.Date.today()
+            if self.l10n_hr_period_delivery_start and self.l10n_hr_period_delivery_end:
+                self.l10n_hr_date_delivery = self.l10n_hr_period_delivery_end
+            else:
+                self.l10n_hr_date_delivery = self.invoice_date or fields.Date.today()
         if not self.date:
             self.date = fields.Date.today()
         if not self.l10n_hr_vrijeme_izdavanja:  # depend na l10n_hr_base?
