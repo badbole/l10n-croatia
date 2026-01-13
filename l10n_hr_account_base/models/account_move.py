@@ -230,9 +230,13 @@ class AccountMove(models.Model):
     def _onchange_partner_id(self):
         res = super(AccountMove, self)._onchange_partner_id()
         if self.partner_id and self.is_outbound(include_receipts=True):
-            self.journal_id = self.partner_id.l10n_hr_purchase_journal_id
+            self.journal_id = (self.partner_id.l10n_hr_purchase_journal_id and
+                               self.partner_id.l10n_hr_purchase_journal_id or
+                               self.journal_id)
         elif self.partner_id and self.is_inbound(include_receipts=True):
-            self.journal_id = self.partner_id.l10n_hr_sale_journal_id
+            self.journal_id = (self.partner_id.l10n_hr_sale_journal_id and
+                               self.partner_id.l10n_hr_sale_journal_id or
+                               self.journal_id)
         return res
 
     @api.onchange('journal_id')
