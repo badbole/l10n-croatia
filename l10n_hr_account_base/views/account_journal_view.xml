@@ -10,13 +10,12 @@
                 <page
                     string="Croatia specific"
                     name="croatia_page"
-                    attrs="{'invisible':[('type', '!=', 'sale')]}"
+                    attrs="{'invisible':[('type', 'not in', ['sale', 'bank', 'cash'])]}"
                 ><!-- attrs="{'invisible':[('company_id.country_id.code','!=', 'HR')]}" -->
                     <group>
 
                         <field
                             name="l10n_hr_default_nacin_placanja"
-                            attrs="{'invisible':[('type', '!=', 'sale')]}"
                         />
                         <field
                             name="l10n_hr_prostor_id"

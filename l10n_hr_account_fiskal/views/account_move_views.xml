@@ -7,9 +7,9 @@
         <field name="arch" type="xml">
             <field name="l10n_hr_nacin_placanja" position="after">
                 <field name="l10n_hr_fiskal_model"/>
-                <field name="l10n_hr_paragon_br" />
                 <field name="l10n_hr_fiskal_user_id" />
-                <field name="l10n_hr_late_delivery" />
+                <field name="l10n_hr_paragon_br" attrs="{'invisible':[('l10n_hr_fiskal_model','!=','f1')]}"/>
+                <field name="l10n_hr_late_delivery" attrs="{'invisible':[('l10n_hr_fiskal_model','!=','f1')]}"/>
                 <button
                     string="Fiskaliziraj"
                     type="object"

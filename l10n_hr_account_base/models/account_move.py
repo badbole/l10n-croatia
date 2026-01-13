@@ -1,7 +1,7 @@
 from odoo import _, api, fields, models
 from odoo.exceptions import ValidationError
 
-from odoo.odoo.tools.safe_eval import assert_no_dunder_name
+#from odoo.odoo.tools.safe_eval import assert_no_dunder_name
 
 
 class AccountMove(models.Model):

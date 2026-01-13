@@ -26,10 +26,10 @@ class AccountMove(models.Model):
         help="According to Fiscalization Law and regulative "
         "there is 5 possible options: \n"
         "T - Transaction bank account\n"
-        "G - Cash (coins or bills), fiskalisation required\n"
-        "K - Bank cards, fiskalisation required\n"
-        "C - Cheque payment, fiskalisation required\n"
-        "O - Other payment, fiskalisation required\n",
+        "G - Cash (coins or bills), \n"
+        "K - Bank cards,\n"
+        "C - Cheque payment,\n"
+        "O - Other payment,\n",
     )
     l10n_hr_fiskal_log_ids = fields.One2many(
         comodel_name="l10n.hr.fiskal.log",
@@ -38,10 +38,13 @@ class AccountMove(models.Model):
         help="Log of all messages sent and received for FINA",
     )
 
-    @api.depends('company_id', 'partner_id')
+    @api.depends('company_id', 'partner_id', 'partner_id.country_id')
     def _compute_l10n_hr_fiskal_model(self):
         for move in self:
             if move.company_id.country_id.code != "HR" or not move.partner_id:
+                move.l10n_hr_fiskal_model = "no"
+                continue
+            if not move.partner_id.country_id: # TODO: =? ili raise error?
                 move.l10n_hr_fiskal_model = "no"
                 continue
             if move.partner_id.country_id.code != "HR":
@@ -63,6 +66,12 @@ class AccountMove(models.Model):
         # ako imam JIR pokreće provjeru ili ako nema fiskalizaciju.
         self.fiskaliziraj()  # from 10n.hr.fixcal.mixin
 
+    def _l10n_hr_pre_post_data(self):
+        res = super()._l10n_hr_pre_post_data()
+        if not self.l10n_hr_fiskal_user_id:
+            self.l10n_hr_fiskal_user_id = self.env.user
+        return res
+
     def _l10n_hr_post_out_invoice(self):
         # singleton record! checked in super()
         res = super()._l10n_hr_post_out_invoice()
@@ -81,6 +90,7 @@ class AccountMove(models.Model):
                 )
                 % self.journal_id.display_name
             )
+
         if self.l10n_hr_fiskal_model == 'f1' and self.l10n_hr_fiskal_uredjaj_id.fiskalisation_active:
             self.fiskaliziraj()
         return res

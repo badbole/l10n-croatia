@@ -87,10 +87,13 @@
                         <group name="l10n_hr_info_fiskal">
                             <field name="l10n_hr_date_document"/>
                             <field name="l10n_hr_date_delivery"/>
-                            <group string="Period of delivery">
-                                <field name="l10n_hr_period_delivery_start" class="oe_nolabel"/>-
-                                <field name="l10n_hr_period_delivery_end" class="oe_nolabel"/>
-                            </group>
+                            <label for="l10n_hr_period_delivery_start" string="Period of delivery"/>
+                                <span class="oe_inline">
+
+                                    <field name="l10n_hr_period_delivery_start" class="oe_nolabel"/>
+                                    <field name="l10n_hr_period_delivery_end" class="oe_nolabel"/>
+                                </span>
+
                         </group>
                     </group>
                 </page>

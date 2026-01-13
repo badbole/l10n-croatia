@@ -109,7 +109,7 @@ class FiskalCertificate(models.Model):
         ],
         readonly=True,
         default="draft",
-        tracking=1,
+        # tracking=1, # or : inherit mail.thread
     )
 
     def button_convert_p12(self):

@@ -6,9 +6,11 @@
 Hrvatska : NKD šifrarnik
 ========================
 
-Dodaje NKD 2007 šifrarnik i omogućuje jednostavan izbor NKD-a
-na postavkama poduzeća i partnera ( TODO partneri)
 
+https://web.dzs.hr/App/klasus/
+
+Instead of adding classification from data,
+we use NACE data
 
 
 Bug Tracker

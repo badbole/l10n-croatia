@@ -6,6 +6,7 @@
         <field name="type">tree</field>
         <field name="arch" type="xml">
             <tree editable="bottom">
+                <field name="parent_id"/>
                 <field name="code" />
                 <field name="name" />
             </tree>
