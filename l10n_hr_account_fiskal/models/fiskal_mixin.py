@@ -59,11 +59,21 @@ class FiscalFiscalMixin(models.AbstractModel):
     @api.depends("l10n_hr_jir", "l10n_hr_zki")
     def _compute_l10n_hr_fiskal_qr(self):
         for inv in self:
-            if not inv.l10n_hr_jir and not inv.l10n_hr_zki:
-                inv.l10n_hr_fiskal_qr
+            if inv.l10n_hr_fiskal_model != 'f1' or \
+            not inv.l10n_hr_jir and not inv.l10n_hr_zki:
+                inv.l10n_hr_fiskal_qr = False
                 continue
             inv.l10n_hr_fiskal_qr = self._generate_fiskal_qr_code()
 
+    l10n_hr_fiskal_model = fields.Selection(
+        selection=[
+            ("f1", "Fiskalizacija 1 (B2C)"),
+            ("f2", "Fiskalizacija 2 (B2B, B2G)"),
+            ("fx", "Nema fiskallizacije (INO, EU)"),
+            ("no", "Not applicable")
+        ], compute="_compute_l10n_hr_fiskal_model",
+        string="Fiscal model"
+    )
     l10n_hr_zki = fields.Char(string="ZKI", readonly=True, copy=False)
     l10n_hr_jir = fields.Char(string="JIR", readonly=True, copy=False)
     l10n_hr_fiskal_user_id = fields.Many2one(
